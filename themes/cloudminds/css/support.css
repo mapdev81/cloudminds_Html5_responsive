@@ -1,0 +1,778 @@
+/*================ Support CSS Start ======================*/
+.mainimage_11{
+
+    height:3.8rem;
+
+    position:relative;
+
+    overflow: hidden;
+
+    background:url("../images/support.png") no-repeat ;
+
+    background-size: cover;
+
+}
+
+.mainimage_11  .maintitle{
+
+    position: absolute;
+
+    top:1.64rem;
+
+    left:3.5rem;
+
+    font-size: 0.42rem;
+
+    color: #FFFFFF;
+
+}
+
+.contain1{
+
+    width:10.6rem;
+
+    padding: 0;
+
+    overflow: visible;
+
+}
+
+.disabled{
+
+    cursor: not-allowed;
+
+}
+
+.feedback{
+
+    text-align: center;
+
+    margin-top: 0.73rem;
+
+    margin-bottom: 0.6rem;
+
+}
+
+.feedback h3{
+
+    padding: 0.2rem 0;
+
+}
+
+.feedback .row{
+
+    margin:0.3rem 0;
+
+    width:13rem;
+
+}
+
+.feedback .name{
+
+    width:1rem;
+
+    height:0.4rem;
+
+    line-height:0.4rem;
+
+}
+
+.feedback .col-md-12,.feedback .col-md-6,.feedback .col-md-2,.feedback .col-md-4,.feedback .col-md-10{
+
+    padding: 0;
+
+}
+
+.feedback .input{
+
+    font-size: 0.18rem;
+
+    width:3.8rem;
+
+}
+
+.xiangqing{
+
+    margin-left: 0.12rem;
+
+}
+
+.feedback .xinghao{
+
+    margin-right: 0.14rem;
+
+}
+
+.feedback .textarea1{
+
+    width:9.07rem;
+
+    margin-left: -0.1rem;
+
+}
+
+.feedback .inputinfo{
+
+    width:5rem;
+
+    margin-right: 0.3rem;
+
+}
+
+.feedback .company, .feedback .telephone{
+
+    margin-left: 0.25rem;
+
+}
+
+.contain1 .row1{
+
+    margin-top: 0.2rem;
+
+}
+
+.qa-title{
+
+    margin-left:0.38rem;
+
+}
+
+.qa-title img{
+
+    width:0.25rem;
+
+    height:0.26rem;
+
+    margin-right: 0.2rem;
+
+    display:inline-block;
+
+
+
+}
+
+.qa-title span{
+
+    font-size: 0.24rem;
+
+    color: #424242;
+
+    letter-spacing: 0;
+
+    vertical-align: middle;
+
+}
+
+#line{
+
+    width:9.8rem;
+
+    height:0.02rem;
+
+    background: #D8D8D8;
+
+    margin-top: 0.2rem;
+
+    margin-left: 0.3rem;
+
+}
+
+.feedback .button{
+
+    background: #FF8C09;
+
+    border-radius: 0.08rem;
+
+    border: none;
+
+    width:4.4rem;
+
+    height:0.56rem;
+
+    font-size: 0.24rem;
+
+    color: #FFFFFF;
+
+    letter-spacing: 0px;
+
+}
+
+.feedback .text{
+
+    font-size:0.24rem;
+
+
+
+}
+
+.feedback h3{
+
+    font-size: 0.42rem;
+
+}
+
+.feedback textarea{
+
+    height:2.2rem;
+
+    display: block;
+
+    font-size: 0.18rem;
+
+}
+
+.input{
+
+    text-align: left;
+
+}
+
+.thankyou{
+
+    text-align: center;
+
+    font-size: 0.18rem;
+
+    margin:0.1rem 0 0.8rem 0.9rem;
+
+}
+
+.pagenation{
+
+    font-size: 0.24rem !important;
+
+    margin-bottom: 1.2rem;
+
+}
+
+@media only screen and (max-width: 750px){
+
+    input,textarea{
+
+        -webkit-appearance: none;
+
+    }
+
+    .qa-item .post-title:hover {
+
+        border-bottom:none;
+
+    }
+
+    .mainimage_11{
+
+        height:5rem;
+
+        background:url("../images/support_mobile.png")  no-repeat ;
+
+        background-size: cover;
+
+    }
+
+    .mainimage_11  .maintitle{
+
+        top:2.02rem;
+
+        left:1.2rem;
+
+        font-size: 0.7rem;
+
+    }
+
+    .contain1{
+
+        width:12rem;
+
+    }
+
+    .feedback .row{
+
+        text-align: left;
+
+        margin:0.3rem 0;
+
+        width:100%;
+
+    }
+
+    .feedback .name{
+
+        width:100%;
+
+        height:0.84rem;
+
+        line-height:0.84rem;
+
+        margin-bottom: 0.2rem;
+
+    }
+
+    .feedback .input{
+
+        width:100%;
+
+        font-size: 0.6rem;
+
+    }
+
+    .feedback .nomark{
+
+        margin-left: 0.5rem;
+
+    }
+
+    .feedback .inputinfo{
+
+        width:100%;
+
+        margin-bottom: 0.66rem;
+
+    }
+
+    .feedback .xinghao{
+
+        margin-right: 0.14rem;
+
+    }
+
+    .feedback .text{
+
+        font-size:0.6rem;
+
+    }
+
+    .feedback input{
+
+        font-size:0.6rem;
+
+    }
+
+    .feedback h3{
+
+        font-size: 0.7rem;
+
+    }
+
+    .feedback textarea{
+
+        height:5.5rem;
+
+        font-size:0.6rem;
+
+
+
+    }
+
+    .feedback .textarea1{
+
+        width:100%;
+
+        margin-left:0;
+
+    }
+
+    .feedback .xinghao{
+
+        margin-right: 0.14rem;
+
+        font-size:0.6rem;
+
+    }
+
+    .thankyou{
+
+        text-align:left;
+
+        font-size: 0.5rem;
+
+        margin:0.1rem 0 0.8rem 0.9rem;
+
+    }
+
+    .feedback .button{
+
+        width:10rem;
+
+        height:1.6rem;
+
+        font-size: 0.6rem;
+
+    }
+
+    .qa-title{
+
+        margin-left:0.38rem;
+
+        margin-top:1.56rem;
+
+    }
+
+    .qa-title img{
+
+        display: inline-block;
+
+        width:0.74rem;
+
+        height:0.74rem;
+
+        margin-right: 0.2rem;
+
+    }
+
+    .qa-title span{
+
+        font-size: 0.6rem;
+
+    }
+
+    #line{
+
+        width:100%;
+
+    }
+
+    .pagenation{
+
+        font-size: 0.6rem !important;
+
+        margin-bottom: 1.2rem;
+
+    }
+
+
+
+}
+
+
+/*================ Support CSS end ======================*/
+
+/*================= Form CSS start ======================*/
+#postList .row {
+
+  margin-left: 0;
+
+  margin-right: 0;
+
+}
+
+#postList .post-title {
+
+    width: 9.7rem;
+
+    line-height: 0.4rem;
+
+    height: 0.4rem;
+
+}
+
+#postList .post-title a {
+
+  color: #424242;
+
+  font-size: 0.24rem;
+
+}
+
+#postList .post-content {
+
+  font-size: 0.18rem;
+
+  color: #424242;
+
+  line-height: 0.24rem;
+
+  width: 9.7rem;
+
+}
+
+.search-finded {
+
+  margin-top: 0.76rem;
+
+  text-indent: 0.16rem;
+
+  font-size: 0.18rem;
+
+  color: #6B6B6B;
+
+}
+
+.search-container {
+
+  margin-left: 0;
+
+  margin-right: 0;
+
+}
+
+.search-box {
+
+  width: 9.8rem;
+
+  height: 0.66rem;
+
+  border-color: #0192EF!important;
+
+  text-indent: 0.12rem;
+
+}
+
+#searchClear {
+
+  margin: 0.3rem 0.2rem 0 0;
+
+  padding: 0;
+
+  cursor: pointer;
+
+}
+
+.post-list {
+
+  padding: 0;
+
+  margin: 0;
+
+  width: 9.7rem;
+
+}
+
+.post-list .post-title,
+
+.post-list .post-content {
+
+  width: 9.7rem;
+
+}
+
+.post-list .post {
+
+  width: 9.7rem;
+
+  height: auto;
+
+}
+
+.post {
+
+  padding: 0 0 0.4rem;
+
+}
+
+.modal-content {
+
+  width: 6rem;
+
+  margin: 0 auto;
+
+  overflow: hidden;
+
+}
+
+/*================= Form CSS end ======================*/
+
+/*================ Post CSS Start =====================*/
+/*stageQa css*/
+
+.message {
+
+    width:9.8rem;
+
+    padding: 0;
+
+    margin-left: 0.3rem;
+
+}
+
+.post-content-hide {
+
+    display: none;
+
+}
+
+.post.qa-item .post-content-color {
+
+    color: #FF8C0A;
+
+}
+
+.post-retract {
+
+    font-size: 0.16rem;
+
+    padding: 0.08rem 0;
+
+    text-align: center;
+
+    color: rgba(0,0,0,.2);
+
+    cursor: pointer;
+
+}
+
+.qa-item{
+
+    width: 9.8rem;
+
+    padding: 0 0 0.2rem;
+
+}
+
+.qa-item h2 {
+
+    font-size: 0.24rem;
+
+    color: #424242;
+
+    line-height: 0.34rem;
+
+}
+
+.qa-item .post-title {
+
+    cursor: pointer;
+
+    display: inline-block;
+
+}
+
+.qa-item .post-title:hover{
+
+    border-bottom: 1px solid black;
+
+}
+
+.qa-item .post-content p,.qa-item .post-content p span {
+
+    font-size: 0.18rem!important;
+
+    color: #424242!important;
+
+    line-height: 0.28rem;
+
+    font-family: inherit!important;
+
+}
+
+.qa-item .post-content .post-retract {
+
+    font-size: 0.18rem;
+
+    color: #424242;
+
+    letter-spacing: 0;
+
+}
+
+.qa-item .jiantou{
+
+    position: absolute;
+
+    width:0.1rem;
+
+    height:0.08rem;
+
+    background: url("../images/DOWN.png") no-repeat 100% 100%;
+
+    right: 0rem;
+
+    bottom: 0.1rem;
+
+
+
+}
+
+.qa-item .jiantou1{
+
+    display: inline-block;
+
+    position: absolute;
+
+    width:0.1rem;
+
+    height:0.08rem;
+
+    background: url("../images/up.html") no-repeat 100% 100%;
+
+    right: 0rem;
+
+    bottom: 0.1rem;
+
+}
+
+.qa-item:nth-of-type(1){
+
+    margin-top: 0.4rem;
+
+}
+
+.qa-item .qa-content{
+
+    position: relative;
+
+}
+
+@media only screen and (max-width: 750px){
+
+    .qa-item{
+
+        width: 100%;
+
+        margin-bottom: 1rem;
+
+        font-size: 0.6rem;
+
+        line-height: 0.8rem;
+
+    }
+
+    .post{
+
+        padding: 0 !important;
+
+    }
+
+    .qa-item .jiantou{
+
+        display: none;
+
+    }
+
+    .qa-item .post-content p,.qa-item .post-content p span {
+
+        font-size: 0.6rem!important;
+
+        line-height: 0.8rem;
+
+    }
+
+    .qa-item .qa-content h2{
+
+        font-size: 0.6rem;
+
+        line-height: 0.8rem;
+
+    }
+
+    .message {
+
+        width:100%;
+
+        padding: 0;
+
+        margin-left: 0.3rem;
+
+    }
+
+    .qa-item .post-content .post-retract {
+
+        font-size: 0.5rem;
+
+        text-align: left;
+
+        margin-top: 0.4rem;
+
+    }
+}
+
+/*================ Post CSS end =====================*/

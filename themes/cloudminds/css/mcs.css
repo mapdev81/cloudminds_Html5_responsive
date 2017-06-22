@@ -1,0 +1,1384 @@
+/*================== aicloud CSS Start ===================*/
+.safety-banner {
+
+    position: relative;
+
+}
+
+.aiCloud .safety-banner .safety-buy {
+
+    display: block;
+
+    position: absolute;
+
+    top: 5.3rem;
+
+    left: 4.12rem;
+
+    width: 3.36rem;
+
+    height: 0.72rem;
+
+    line-height: 0.72rem;
+
+    color: #fff;
+
+    font-size: 0.2rem;
+
+    background: url('../images/aiCloud/buttonpic.png');
+
+    text-align: center;
+
+    background-size: cover;
+
+}
+
+.aiCloud .safety-banner .safety-buy:hover {
+
+    background: url('../images/aiCloud/buttonclick.png');
+
+    background-size: cover;
+
+}
+
+.safety-banner .aiCloud-position {
+
+    width: 8rem;
+
+}
+
+.safety-msg {
+
+    margin: 0.9rem 2.4rem 0.6rem 2.8rem;
+
+}
+
+.adn-container div.safety-date {
+
+    /*width: 3.15rem;*/
+
+    height: 5.6rem;
+
+    /*margin-right: 0.13rem;*/
+
+    margin-bottom: 0.15rem;
+
+    padding: 0;
+
+    text-align: center;
+
+}
+
+.adn-container div.safety-date img {
+
+    width: 3.15rem;
+
+    height: 5.6rem;
+
+}
+
+.safety-date h2 {
+
+    font-size: 0.24rem;
+
+    color: #2D2D2D;
+
+    margin-top: -2.3rem;
+
+    text-align: center;
+
+    padding-right: 0.2rem;
+
+}
+
+.aiCloud .safety-date h2 {
+
+    padding-right: 0;
+
+}
+
+.safety-date p {
+
+    line-height: 0.28rem;
+
+    font-size: 0.18rem;
+
+    color: #419BF9;
+
+    margin-bottom: 0.16rem;
+
+}
+
+.safety-date div {
+
+    width: 2.26rem;
+
+    opacity: 0.69;
+
+    font-size: 0.16rem;
+
+    color: #424242;
+
+    line-height: 0.24rem;
+
+    text-align: center;
+
+    margin-left: 0.5rem;
+
+    margin-top: 0.2rem;
+
+}
+
+.aiCloud .safety-date div {
+
+
+
+}
+
+.aiCloud-introduce h2 {
+
+    font-size: 0.7rem;
+
+    color: #2D2D2D;
+
+    text-align: center;
+
+    margin: 1rem 0 0.5rem;
+
+}
+
+.introduce-title {
+
+    margin: 0 auto;
+
+}
+
+.introduce-title img {
+
+    width: 12rem;
+
+    height: 5.21rem;
+
+    margin: 0.5rem 0;
+
+}
+
+.introduce-title p {
+
+    font-size: 0.6rem;
+
+    color: #424242;
+
+    letter-spacing: 0;
+
+    line-height: 0.8rem;
+
+    margin-bottom: 0.4rem;
+
+}
+
+.introduce-title p:nth-child(1){
+
+    font-size: 0.7rem;
+
+    color: #2D2D2D;
+
+    margin-top: 1rem;
+
+}
+
+.adn-container div.safety-date img {
+
+    margin: 0 auto;
+
+}
+
+.aiCloud .vbn-date {
+
+    width: 10rem;
+
+    margin: 0.5rem auto 1rem;
+
+    padding-left: 0;
+
+}
+
+@media (max-width: 768px) {
+
+    .safety-date h2 {
+
+        font-size: 0.7rem;
+
+        color: #2D2D2D;
+
+        letter-spacing: 0;
+
+    }
+
+    .safety-date div {
+
+        width: 100%;
+
+        font-size: 0.6rem;
+
+        color: #424242;
+
+        letter-spacing: 0;
+
+        line-height: 0.8rem;
+
+    }
+
+    .adn-container div.safety-date {
+
+        height: 100%;
+
+    }
+
+    .safety-banner .safety-buy {
+
+        display: block;
+
+        position: absolute;
+
+        top: 7rem;
+
+        left: 4.12rem;
+
+        width: 5.74rem;
+
+        height: 1.2rem;
+
+        line-height: 1.2rem;
+
+        color: #fff;
+
+        font-size: 0.5rem;
+
+        background: url('../images/buttonpic.png');
+
+        text-align: center;
+
+        background-size: cover;
+
+    }
+
+    .aiCloud .vbn-safe {
+
+        top: 1.5rem;
+
+    }
+
+    .aiCloud .safety-banner .vbn-msg {
+
+        top: 2.5rem;
+
+    }
+
+    .aiCloud-introduce {
+
+        display: block;
+
+        margin: 0 1.2rem 0;
+
+    }
+
+    .aiCloud-introduce-pc {
+
+        display: none;
+
+    }
+
+    .aiCloud .safety-banner .safety-buy {
+
+        top: 5.5rem;
+
+        left: 8.5%;
+
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .aiCloud-introduce {
+
+        display: none;
+
+    }
+
+    .aiCloud-introduce-pc {
+
+        width: 10rem;
+
+        margin: 0 auto;
+
+        display: block;
+
+    }
+
+    .aiCloud-introduce-pc > h2 {
+
+        font-size: 0.42rem;
+
+        color: #2D2D2D;
+
+        letter-spacing: 0;
+
+        line-height: 0.52rem;
+
+        text-align: center;
+
+        margin: 0.3rem 0 0.5rem;
+
+    }
+
+    .aiCloud-introduce-pc > .introduce-title > p {
+
+        font-size: 0.18rem;
+
+        color: #2D2D2D;
+
+        letter-spacing: 0;
+
+        line-height: 0.28rem;
+
+        margin-bottom: 0.2rem;
+
+    }
+
+    .aiCloud-introduce-pc > .introduce-title > p:nth-child(1) {
+
+        margin: 0.5rem 0 0.5rem;
+
+        font-size: 0.24rem;
+
+    }
+
+    .aiCloud-introduce-pc > .introduce-title:nth-child(2) > img {
+
+        width: 10rem;
+
+        height: 4.35rem;
+
+    }
+
+    .aiCloud-introduce-pc > .introduce-title:nth-child(3) > img {
+
+        width: 10rem;
+
+        height: 5.22rem;
+
+    }
+
+    .aiCloud-introduce-pc > .introduce-title:nth-child(4) > img {
+
+        width: 10rem;
+
+        height: 3.82rem;
+
+    }
+
+    .aiCloud-introduce-pc > .introduce-title:nth-child(5) > img {
+
+        width: 10rem;
+
+        height: 5.29rem;
+
+    }
+
+}
+
+
+
+/*================== aicloud CSS end ===================*/
+
+/*================== vbn CSS Start ===================*/
+.vbn-safe {
+
+    position: absolute;
+
+    left: 4.12rem;
+
+    top: 2.7rem;
+
+    font-size: 0.64rem;
+
+    color: #FFFFFF;
+
+    letter-spacing: 0rem;
+
+    text-shadow: 0px 1px 4px rgba(0,0,0,0.20);
+
+}
+
+.vbn-msg {
+
+    width: 3.12rem;
+
+    height: 1.02rem;
+
+    position: absolute;
+
+    left: 4.12rem;
+
+    top: 3.64rem;
+
+    font-size: 0.24rem;
+
+    color: #FFFFFF;
+
+    letter-spacing: 0;
+
+}
+
+.vbn-msg p {
+
+    width: 3.12rem;
+
+}
+
+.vbn-t {
+
+    text-align: center;
+
+    margin-top: 0.6rem;
+
+}
+
+.vbn-title {
+
+    font-size: 0.36rem;
+
+    color: #2D2D2D;
+
+    letter-spacing: 0rem;
+
+    margin: 0.73rem 0 0.67rem;
+
+    text-align: center;
+
+}
+
+.vbn-t .vbn-subtitle {
+
+    margin-bottom: 0.1rem;
+
+}
+
+.vbn-t .vbn-subtitle p {
+
+    font-size: 0.42rem;
+
+    color: #2D2D2D;
+
+    letter-spacing: 0rem;
+
+    line-height: 0.52rem;
+
+}
+
+.vbn-t p {
+
+    font-size: 0.24rem;
+
+    color: #424242;
+
+    letter-spacing: 0rem;
+
+}
+
+.vbn-date {
+
+    margin: 0.4rem 2.6rem 0.61rem;
+
+    padding-left: 0.5rem;
+
+}
+
+.safety-date .vbn-center {
+
+    text-align: center;
+
+}
+
+.vbn-container .safety-date {
+
+    height: 4.9rem;
+
+}
+
+.vbn-container .safety-date img {
+
+    height: 4.9rem;
+
+}
+
+.vbn-container div.safety-date {
+
+    margin-bottom: 0.15rem;
+
+    padding: 0;
+
+    text-align: center;
+
+}
+
+.vbn .safety-banner .safety-buy {
+
+    display: block;
+
+    position: absolute;
+
+    top: 5.3rem;
+
+    left: 4.12rem;
+
+    width: 3.36rem;
+
+    height: 0.72rem;
+
+    line-height: 0.72rem;
+
+    color: #fff;
+
+    font-size: 0.2rem;
+
+    background: url('../images/buttonpic.png');
+
+    text-align: center;
+
+    background-size: cover;
+
+}
+
+.vbn .safety-banner .safety-buy:hover {
+
+    background: url('../images/buttonclick.png');
+
+    background-size: cover;
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    .vbn .vbn-safe {
+
+        top: 1.5rem;
+
+        font-size: 0.8rem;
+
+    }
+
+    .vbn .safety-banner .vbn-msg {
+
+        top: 2.5rem;
+
+    }
+
+    .vbn .safety-date h2 {
+
+        margin-bottom: 0.5rem;
+
+    }
+
+    .vbn .safety-banner .safety-buy {
+
+        top: 5rem;
+
+        left: 8.5%;
+
+    }
+
+    .vbn-msg p {
+
+        width: 6.1rem;
+
+    }
+
+    .safety-banner .vbn-msg {
+
+        width: 8.5rem;
+
+        height: 1.38rem;
+
+        font-size: 0.5rem;
+
+        margin-top: 0.3rem;
+
+    }
+
+    .vbn-container div.safety-date img:first-child {
+
+        display: none;
+
+    }
+
+    .vbn-container div.safety-date img:nth-child(2) {
+
+        display: block;
+
+        width: 4.2rem;
+
+        height: 4.2rem;
+
+        margin: 0 auto;
+
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .vbn-container div.safety-date img:first-child {
+
+        display: block;
+
+    }
+
+    .vbn-container div.safety-date img:nth-child(2) {
+
+        display: none;
+
+    }
+
+}
+
+
+
+/*================== vbn CSS end ===================*/
+
+/*================== mcs CSS Start ===================*/
+.mcs-describe {
+
+    width: 9.8rem;
+
+    font-size: 0.16rem;
+
+    color: #000000;
+
+    line-height: 0.24rem;
+
+    margin: 0.6rem auto 0.51rem;
+
+}
+
+.mcs-describe p {
+
+    font-size: 0.18rem;
+
+    color: #424242;
+
+    line-height: 0.28rem;
+
+}
+
+
+
+.mcs-contrast .mcs-contract-img {
+
+    background-image: url(../images/mcs/1.png);
+
+    background-size: cover;
+
+    width: 9.8rem;
+
+    height: 4.23rem;
+
+    display: block;
+
+    margin: 0 auto;
+
+}
+
+
+
+.mcs-subtitle {
+
+    width: 10.61rem;
+
+    font-size: 0.18rem;
+
+    text-align: left;
+
+    margin: 0.72rem auto 0.48rem;
+
+    color: #424242;
+
+    line-height: 0.28rem;
+
+}
+
+.mcs-icon {
+
+    width: 12rem;
+
+    margin: 0 auto 0.53rem;
+
+}
+
+.mcs-icon-date {
+
+    height: 4.94rem;
+
+    margin: 0 0.2rem;
+
+    padding: 0;
+
+    float: left;
+
+    text-align: center;
+
+}
+
+.mcs-icon-date:first-child {
+
+    margin-left: 1.1rem;
+
+ }
+
+.mcs-icon-date img {
+
+    width: 3.15rem;
+
+    height: 4.94rem;
+
+}
+
+.mcs-icon-date h2 {
+
+    font-size: 0.2rem;
+
+    margin-bottom: 0.2rem;
+
+    text-align: center;
+
+    color: #2D2D2D;
+
+    margin-top: -2.7rem;
+
+    padding-left: 0.2rem;
+
+}
+
+.mcs-icon-date p {
+
+    opacity: 0.5;
+
+    font-size: 0.16rem;
+
+    color: #419BF9;
+
+    margin-bottom: 0.16rem;
+
+    text-align: center;
+
+}
+
+.mcs-icon-date div {
+
+    width: 2.6rem;
+
+    opacity: 0.69;
+
+    font-size: 0.18rem;
+
+    line-height: 0.24rem;
+
+    margin: 0 auto;
+
+    text-align: center;
+
+    color: #424242;
+
+    padding-left: 0.1rem;
+
+}
+
+.mcs-backbone {
+
+    padding: 0.4rem 0 0.4rem 4rem;
+
+    border-radius: 1px;
+
+}
+
+.mcs-backbone:nth-child(odd) {
+
+    background: #4E8BE6;
+
+    border-radius: 1px;
+
+}
+
+.mcs-backbone:nth-child(even) {
+
+    border-radius: 8px;
+
+}
+
+.mcs-backbone-l,.mcs-backbone-r {
+
+    float: left;
+
+}
+
+.mcs-backbone-l img {
+
+    opacity: 1;
+
+}
+
+.mcs-backbone:nth-child(odd) .mcs-backbone-title,.mcs-backbone:nth-child(even) .mcs-backbone-title {
+
+    font-size: 0.36rem;
+
+    letter-spacing: 0;
+
+    line-height: 0.52rem;
+
+    margin: 0.6rem 0 0.3rem 0.72rem;
+
+}
+
+.mcs-backbone:nth-child(odd) .mcs-backbone-title {
+
+    color: #FFFFFF;
+
+}
+
+.mcs-backbone:nth-child(even) .mcs-backbone-title {
+
+    color: #2D2D2D;
+
+}
+
+.mcs-backbone:nth-child(odd) .mcs-backbone-msg,.mcs-backbone:nth-child(even) .mcs-backbone-msg{
+
+    width: 4.56rem;
+
+    opacity: 0.69;
+
+    font-size: 0.18rem;
+
+    line-height: 0.24rem;
+
+    margin: 0 0 0.59rem 0.72rem;
+
+}
+
+.mcs-backbone:nth-child(odd) .mcs-backbone-msg {
+
+    color: #FFFFFF;
+
+}
+
+.mcs-backbone:nth-child(even) .mcs-backbone-msg {
+
+    color: #2D2D2D;
+
+}
+
+.mcs-backbone-0 .mcs-backbone-l img {
+
+    width: 4.96rem;
+
+    height: 4.5rem;
+
+}
+
+.mcs-backbone-0 .mcs-backbone-r {
+
+    margin-left: 0.2rem;
+
+}
+
+.mcs-backbone-1 .mcs-backbone-l {
+
+    width: 5rem;
+
+    height: 5rem;
+
+    margin: 0.06rem 0.2rem 0.06rem 0;
+
+}
+
+.mcs-backbone-1 .mcs-backbone-l img {
+
+    margin-top: 1.34rem;
+
+    width: 5rem;
+
+    height: 2.28rem;
+
+}
+
+.mcs-backbone-2 .mcs-backbone-l {
+
+    margin: 0.29rem 0.29rem 0 0.2rem;
+
+}
+
+.mcs-backbone-2 .mcs-backbone-l img {
+
+    width: 3.91rem;
+
+    height: 3.91rem;
+
+}
+
+.mcs-backbone-2 .mcs-backbone-r {
+
+    margin-left: 0.82rem;
+
+}
+
+.mcs-backbone-3 .mcs-msg {
+
+    width: 6.14rem;
+
+    margin: 0 0.7rem 0.17rem 0;
+
+}
+
+.mcs-backbone-3 .mcs-msg div {
+
+    font-size: 0.24rem;
+
+    color: #2D2D2D;
+
+    letter-spacing: 0;
+
+    line-height: 0.52rem;
+
+}
+
+.mcs-backbone-3 .mcs-msg p {
+
+    opacity: 0.69;
+
+    font-size: 0.18rem;
+
+    color: #424242;
+
+    line-height: 0.24rem;
+
+}
+
+.mcs-backbone-3 .mcs-backbone-msg {
+
+    width: 6.26rem;
+
+}
+
+.mcs-backbone-3 .mcs-backbone-l {
+
+    width: 3.9rem;
+
+    height: 5.41rem;
+
+    margin-right: 1.4rem;
+
+}
+
+.mcs-backbone-3 .mcs-backbone-l img {
+
+    width: 2.7rem;
+
+    height: 5.17rem;
+
+    margin-left: 1rem;
+
+    margin-top: 0.8rem;
+
+}
+
+.mcs .safety-banner .safety-buy {
+
+    display: block;
+
+    position: absolute;
+
+    top: 5.3rem;
+
+    left: 4.12rem;
+
+    width: 3.36rem;
+
+    height: 0.72rem;
+
+    line-height: 0.72rem;
+
+    color: #fff;
+
+    font-size: 0.2rem;
+
+    background: url('../images/mcs/buttonpic.png');
+
+    text-align: center;
+
+    background-size: cover;
+
+}
+
+.mcs .safety-banner .safety-buy:hover {
+
+    background: url('../images/mcs/buttonclick.png');
+
+    background-size: cover;
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    .mcs-describe {
+
+        width: 12rem;
+
+    }
+
+    .mcs-describe p,.mcs-subtitle {
+
+        width: 12rem;
+
+        font-size: 0.6rem;
+
+        color: #424242;
+
+        line-height: 0.8rem;
+
+        padding-bottom: 0.5rem;
+
+        text-align: left;
+
+    }
+
+    .mcs-icon-date {
+
+        margin-left: 0;
+
+        margin-bottom: 1rem;
+
+    }
+
+    .mcs-icon-date:first-child {
+
+        margin-left: 0;
+
+        margin-bottom: 1rem;
+
+    }
+
+    .vbn-safe {
+
+        top: 2rem;
+
+        left: 8.5%;
+
+    }
+
+    .safety-banner .vbn-msg {
+
+        font-size: 0.5rem;
+
+        top: 3rem;
+
+        left: 8.5%;
+
+        width: 100%;
+
+    }
+
+    .safety-banner .safety-buy {
+
+        top: 4.5rem;
+
+        left: 8.5%;
+
+    }
+
+    .mcs .safety-banner .safety-buy {
+
+        top: 4.9rem;
+
+        left: 8.5%;
+
+    }
+
+    .mcs-contrast .mcs-contract-img {
+
+        width: 12.98rem;
+
+        height: 5.6rem;
+
+        margin: 0 auto;
+
+    }
+
+    .mcs-icon-date img {
+
+        display: none;
+
+    }
+
+    .mcs-icon-date {
+
+        height: auto;
+
+    }
+
+    .mcs-icon-date .mcs-date-pic {
+
+        display: block;
+
+        width: 4.2rem;
+
+        height: 4.2rem;
+
+        margin: 0 auto;
+
+    }
+
+    .mcs-icon-date h2 {
+
+        margin: 0.1rem 0 0.5rem;
+
+        font-size: 0.7rem;
+
+        color: #2D2D2D;
+
+        letter-spacing: 0;
+
+    }
+
+    .mcs-icon-date div {
+
+        width: 12rem;
+
+        font-size: 0.6rem;
+
+        color: #424242;
+
+        letter-spacing: 0;
+
+        line-height: 0.7rem;
+
+    }
+
+    .mcs-backbone {
+
+        padding: 0;
+
+    }
+
+    .mcs-backbone-l {
+
+        float: none;
+
+    }
+
+    .mcs-backbone .mcs-backbone-l img:first-child {
+
+        display: none;
+
+    }
+
+    .mcs-backbone .mcs-backbone-l img:last-child {
+
+        display: block;
+
+        margin: 0 auto;
+
+        width: 4.32rem;
+
+        height: 8.29rem;
+
+    }
+
+    .mcs-backbone-0 {
+
+        padding-top: 0.6rem;
+
+    }
+
+    .mcs-backbone-0 .mcs-backbone-l {
+
+        margin-bottom: 1.5rem;
+
+    }
+
+    .mcs-backbone-0 .mcs-backbone-l img:last-child {
+
+        width: 5.91rem;
+
+        height: 5.86rem;
+
+    }
+
+    .mcs-backbone .mcs-backbone-r {
+
+        float: none;
+
+        width: 12rem;
+
+        margin: 0 auto;
+
+    }
+
+    .mcs-backbone-r {
+
+        padding-bottom: 1rem;
+
+    }
+
+    .mcs-backbone-1 .mcs-backbone-l {
+
+        width: auto;
+
+        height: auto;
+
+        margin: 0 auto;
+
+        padding: 1rem 0 1rem;
+
+    }
+
+    .mcs-backbone-1 .mcs-backbone-l img:last-child {
+
+        width: 7.61rem;
+
+        height: 3.47rem;
+
+    }
+
+    .mcs-backbone-2 .mcs-backbone-l {
+
+        padding-top: 1rem;
+
+    }
+
+    .mcs-backbone-2 .mcs-backbone-l img:last-child {
+
+        width: 5.47rem;
+
+        height: 5.47rem;
+
+    }
+
+    .mcs-backbone-3 .mcs-backbone-l {
+
+        width: 100%;
+
+        height: auto;
+
+        padding: 1rem 0 0.2rem;
+
+    }
+
+    .mcs-backbone-3 .mcs-msg div {
+
+        font-size: 0.6rem;
+
+        color: #424242;
+
+        letter-spacing: 0;
+
+        line-height: 0.7rem;
+
+        margin: 0.5rem 0 1rem;
+
+    }
+
+    .mcs-backbone-3 .mcs-msg {
+
+        width: 100%;
+
+        margin-right: 0;
+
+    }
+
+    .mcs-backbone-3 .mcs-msg p {
+
+        font-size: 0.6rem;
+
+        color: #424242;
+
+        letter-spacing: 0;
+
+        line-height: 0.8rem;
+
+    }
+
+    .mcs-backbone:nth-child(odd) .mcs-backbone-title, .mcs-backbone:nth-child(even) .mcs-backbone-title {
+
+        margin: 1rem 0 0.8rem;
+
+        font-size: 0.7rem;
+
+        letter-spacing: 0;
+
+        text-align: left;
+
+    }
+
+    .mcs-backbone:nth-child(even) .mcs-backbone-title p {
+
+        line-height: 0.8rem;
+
+    }
+
+    .mcs-backbone:nth-child(odd) .mcs-backbone-msg, .mcs-backbone:nth-child(even) .mcs-backbone-msg {
+
+        width: 12rem;
+
+        margin: 0.5rem auto 0;
+
+        font-size: 0.6rem;
+
+        letter-spacing: 0;
+
+        line-height: 0.8rem;
+
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .mcs-icon-date img {
+
+        display: block;
+
+    }
+
+    .mcs-icon-date .mcs-date-pic {
+
+        display: none;
+
+    }
+
+    .mcs-backbone .mcs-backbone-l img:first-child {
+
+        display: block;
+
+    }
+
+    .mcs-backbone .mcs-backbone-l img:last-child {
+
+        display: none;
+
+    }
+
+}
+
+
+
+
+
+
+
+/*================== mcs CSS end ===================*/

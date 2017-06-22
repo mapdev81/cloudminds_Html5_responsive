@@ -1,0 +1,664 @@
+
+/*=========================== product CSS ===========================*/
+
+.products .banner_container {
+
+  background: url(../images/banner-products.png);
+
+  background-size: cover;
+
+  height: 3.8rem;
+
+}
+
+.products .banner_container .contact {
+
+  background-color: #0192EF;
+
+  border-color: #0192EF;
+
+  top: 3.28rem;
+
+}
+
+.products .banner_container .banner_label_container {
+
+  margin-top: 0.6rem;
+
+}
+
+.products .banner_container .banner_label_container h1 {
+
+  font-size: 0.42rem;
+
+}
+
+.products .banner_container .banner_label_container p {
+
+  font-size: 0.24rem;
+
+  line-height: 0.4rem;
+
+  width: 7.9rem;
+
+  margin: 0;
+
+}
+
+.products .banner_container .banner_label_container a:hover {
+
+  background-color: #007ccc;
+
+  border-color: #007ccc;
+
+}
+
+.products .container {
+
+  width: 13rem;
+
+}
+
+.products .container .product-kind {
+
+  margin: 0.6rem 0 0.2rem 0;
+
+  overflow: hidden;
+
+}
+
+.products .container .product-kind li {
+
+  float: left;
+
+  width: 3.1rem;
+
+  height: 4.1rem;
+
+  margin-right: 0.2rem;
+
+  position: relative;
+
+  margin-bottom: 0.03rem;
+
+}
+
+.products .container .product-kind li:hover {
+
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.16);
+
+}
+
+.products .container .product-kind li .pro-pic {
+
+  display: block;
+
+  width: 3.1rem;
+
+  height: 4.1rem;
+
+}
+
+.products .container .product-kind li .pro-pic img {
+
+  width: 100%;
+
+  height: 100%;
+
+}
+
+.products .container .product-kind li h4 {
+
+  font-size: 0.3rem;
+
+  line-height: 0,24rem;
+
+  text-align: center;
+
+  position: absolute;
+
+  top: 2.64rem;
+
+  width: 3.1rem;
+
+}
+
+.products .container .product-kind li h4 > a {
+
+  color: #2D2D2D;
+
+}
+
+.products .container .product-kind li p {
+
+  width: 2.4rem;
+
+  font-size: 0.18rem;
+
+  line-height: 0.24rem;
+
+  text-align: center;
+
+  margin: 0 auto;
+
+  position: absolute;
+
+  top: 3.08rem;
+
+  left: 10%;
+
+}
+
+.products .container .product-kind li p > a {
+
+  color: #424242;
+
+}
+
+.products .container .product-kind li:nth-child(4) {
+
+  margin-right: 0;
+
+}
+
+.products .container .products-data {
+
+    display: block;
+
+    width: 13rem;
+
+    height: 4.6rem;
+
+    background: url(../images/products-data.png) no-repeat center;
+
+    background-size: cover;
+
+    overflow: hidden;
+
+    margin-bottom: 0.2rem;
+
+}
+
+.products .container .products-e1 {
+
+  display: block;
+
+  width: 13rem;
+
+  height: 4.6rem;
+
+  background: url(../images/products-e1.png) no-repeat center;
+
+  background-size: cover;
+
+  overflow: hidden;
+
+  margin-bottom: 0.2rem;
+
+}
+
+.products .container .products-meta {
+
+  display: block;
+
+  width: 13rem;
+
+  height: 4.6rem;
+
+  background: url(../images/products-meta.png) no-repeat center;
+
+  background-size: cover;
+
+  overflow: hidden;
+
+  margin-bottom: 0.6rem;
+
+}
+
+.products .container .products-font {
+
+  position: absolute;
+
+  top: 1.63rem;
+
+  left: 1.76rem;
+
+}
+
+.products .container .products-font h4 {
+
+  margin-bottom: 0.2rem;
+
+  font-size: 0.36rem;
+
+  color: #FFFFFF;
+
+  line-height: 0.36rem;
+
+}
+
+.products .container .products-font p {
+
+  font-size: 0.18rem;
+
+  color: #FFFFFF;
+
+  line-height: 0.24rem;
+
+  margin-bottom: 0.06rem;
+
+}
+
+.products .container .products-font a {
+
+  font-size: 0.18rem;
+
+  color: #fff;
+
+}
+
+.products .container .products-font a:hover {
+
+  text-decoration: underline;
+
+}
+
+.products .container .dataphone h4{
+
+    height:0.5rem;
+
+}
+
+
+/*============================= product CSS end ====================*/
+
+/*======================= product Media start =========================*/
+
+@media (max-width: 767px) {
+
+  .products .banner_container {
+
+    height: 5rem;
+
+  }
+
+  .products .i-solution-case-container .container {
+
+    width: 84%;
+
+  }
+
+  .products .banner_container .banner_label_container h1 {
+
+    font-size: 16px;
+
+  }
+
+  .products .banner_container .banner_label_container {
+
+    margin: 0.71rem 0 0 1.2rem;
+
+  }
+
+  .products .banner_container .banner_label_container p {
+
+    font-size: 12px;
+
+    line-height: 16px;
+
+  }
+
+  .banner_container .banner_label_container .contact {
+
+    width: 4.8rem;
+
+    height: 1.2rem;
+
+    line-height: 1.2rem;
+
+    font-size: 12px;
+
+  }
+
+  .container .row .project-explain .solution-previous,
+
+  .container .row .project-explain .solution-next {
+
+    line-height: 0.74rem;
+
+    font-size: 0.4rem;
+
+  }
+
+  .container .row .project-explain .see-all a {
+
+    font-size: 0.4rem;
+
+  }
+
+  .container .row .project-explain .see-all {
+
+    top: 0.7rem;
+
+  }
+
+  .products .banner_container .banner_label_container p {
+
+    width: 95%;
+
+  }
+
+  .products .container .product-kind li {
+
+    float: left;
+
+    width: 6.3rem;
+
+    height: 8.5rem;
+
+    margin-right: 0.4rem;
+
+    position: relative;
+
+    margin-bottom: 0.4rem;
+
+  }
+
+  .products .container .product-kind li:nth-child(2n) {
+
+    margin-right: 0;
+
+  }
+
+  .products .container .products-meta,
+
+  .products .container .products-e1,
+
+  .products .container .products-data{
+
+    width: 13.6rem;
+
+    height: 5.6rem;
+
+  }
+
+  .products .container .product-kind li .pro-pic {
+
+    display: block;
+
+    width: 6.3rem;
+
+    height: 8rem;
+
+  }
+
+  .products .container .product-kind li h4 {
+
+    font-size: 20px;
+
+    line-height: 0,24rem;
+
+    text-align: center;
+
+    position: absolute;
+
+    top: 4.9rem;
+
+    width: 3.4rem;
+
+    font-weight: 600;
+
+    left: 1.5rem;
+
+  }
+
+  .products .container .product-kind li p {
+
+    width: 81%;
+
+    font-size: 12px;
+
+    line-height: 14px;
+
+    text-align: center;
+
+    margin: 0 auto;
+
+    position: absolute;
+
+    top: 6rem;
+
+    left: 10%;
+
+  }
+
+  .products .container .products-font {
+
+    left: 0.8rem;
+
+    top: 1.6rem;
+
+    width: 8rem;
+
+  }
+
+  .products .container .products-font h4 {
+
+    font-size: 16px;
+
+    line-height: 18px;
+
+    font-weight: 600;
+
+  }
+
+  .products .container .products-font p {
+
+    font-size: 12px;
+
+    line-height: 14px;
+
+  }
+
+  .products .container .products-font a {
+
+    font-size: 12px;
+
+  }
+
+    .products .container .dataphone h4{
+
+        height:1rem;
+
+    }
+
+}
+
+@media (max-width: 366px) {
+
+    .products .banner_container {
+
+        height: 6rem;
+
+    }
+
+    .products .container .product-kind li {
+
+        height: 9rem;
+
+    }
+
+    .products .container .product-kind li .pro-pic {
+
+        height: 8.8rem;
+
+    }
+
+    .products .container .product-kind li h4 {
+
+             width: 4.4rem;
+
+             left: 1rem;
+
+         }
+
+}
+ 
+/*====================== product Media end =====================*/
+
+/*======================= Banner  CSS start ==================*/
+
+
+
+.banner_container {
+
+    width:100%;
+
+    height: 8.75rem;
+
+    overflow: hidden;
+
+}
+
+
+
+.banner_container {
+
+    background: url(../images/banner_detail.png);
+
+    background-repeat: no-repeat;
+
+    background-position: center center;
+
+    background-size: cover;
+
+}
+
+
+
+.banner_container .plug-name:link {
+
+    color: #FFFFFF
+
+}
+
+
+
+.banner_container p {
+
+    margin: 0.5rem auto;
+
+    color: #fff;
+
+    font-size: 0.22rem;
+
+}
+
+.banner_container h3{
+
+    margin-top: 26%;
+
+    color: #fff;
+
+    font-size: 0.58rem;
+
+}
+
+.banner_container .container .contact{
+
+    width: 3.3rem;
+
+    height: 0.66rem;
+
+    line-height: 0.51rem;
+
+    background: rgba(255,255,255,.4);
+
+    color: #fff;
+
+    font-size: 0.22rem;
+
+    border-radius: 5px;
+
+    position: absolute;
+
+    top:5.5rem;
+
+    left: 4.12rem;
+
+}
+
+
+
+.banner_label_container {
+
+    position: relative;
+
+    margin-left: 4.12rem;
+
+    margin-top: 3rem;
+
+    color: #FFFFFF;
+
+}
+
+
+
+.banner_label_container h1 {
+
+    font-size: 0.64rem;
+
+    margin-bottom: 0.4rem;
+
+}
+
+
+
+.banner_label_container p {
+
+    font-size: 0.24rem;
+
+    margin: 0.05rem auto;
+
+    color: #fff;
+
+    font-size: 0.22rem;
+
+}
+
+
+
+.banner_container .banner_label_container .contact{
+
+    width: 3.36rem;
+
+    height: 0.72rem;
+
+    margin-top: 0.3rem;
+
+    line-height: 0.72rem;
+
+    background: rgba(255,255,255,.4);
+
+    color: #fff;
+
+    font-size: 0.3rem;
+
+    border-radius: 0.05rem;
+
+    padding: 0;
+
+
+
+}
+
+.banner_container a:hover{
+
+      background-color: #2d92ed;
+
+      border-color: #2d92ed;
+
+    }
+
+
+/*====================== Banner CSS End ====================*/

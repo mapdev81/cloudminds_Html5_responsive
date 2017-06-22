@@ -1,0 +1,195 @@
+.safety-banner {
+    position: relative;
+}
+.aiCloud .safety-banner .safety-buy {
+    display: block;
+    position: absolute;
+    top: 5.3rem;
+    left: 4.12rem;
+    width: 3.36rem;
+    height: 0.72rem;
+    line-height: 0.72rem;
+    color: #fff;
+    font-size: 0.2rem;
+    background: url('../images/aiCloud/buttonpic.png');
+    text-align: center;
+    background-size: cover;
+}
+.aiCloud .safety-banner .safety-buy:hover {
+    background: url('../images/aiCloud/buttonclick.png');
+    background-size: cover;
+}
+.safety-banner .aiCloud-position {
+    width: 8rem;
+}
+.safety-msg {
+    margin: 0.9rem 2.4rem 0.6rem 2.8rem;
+}
+.adn-container div.safety-date {
+    /*width: 3.15rem;*/
+    height: 5.6rem;
+    /*margin-right: 0.13rem;*/
+    margin-bottom: 0.15rem;
+    padding: 0;
+    text-align: center;
+}
+.adn-container div.safety-date img {
+    width: 3.15rem;
+    height: 5.6rem;
+}
+.safety-date h2 {
+    font-size: 0.24rem;
+    color: #2D2D2D;
+    margin-top: -2.3rem;
+    text-align: center;
+    padding-right: 0.2rem;
+}
+.aiCloud .safety-date h2 {
+    padding-right: 0;
+}
+.safety-date p {
+    line-height: 0.28rem;
+    font-size: 0.18rem;
+    color: #419BF9;
+    margin-bottom: 0.16rem;
+}
+.safety-date div {
+    width: 2.26rem;
+    opacity: 0.69;
+    font-size: 0.16rem;
+    color: #424242;
+    line-height: 0.24rem;
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+}
+.aiCloud .safety-date div {
+
+}
+.aiCloud-introduce h2 {
+    font-size: 0.7rem;
+    color: #2D2D2D;
+    text-align: center;
+    margin: 1rem 0 0.5rem;
+}
+.introduce-title {
+    margin: 0 auto;
+}
+.introduce-title img {
+    width: 12rem;
+    height: 5.21rem;
+    margin: 0.5rem 0;
+}
+.introduce-title p {
+    font-size: 0.6rem;
+    color: #424242;
+    letter-spacing: 0;
+    line-height: 0.8rem;
+    margin-bottom: 0.4rem;
+}
+.introduce-title p:nth-child(1){
+    font-size: 0.7rem;
+    color: #2D2D2D;
+    margin-top: 1rem;
+}
+.adn-container div.safety-date img {
+    margin: 0 auto;
+}
+.aiCloud .vbn-date {
+    width: 10rem;
+    margin: 0.5rem auto 1rem;
+    padding-left: 0;
+}
+@media (max-width: 768px) {
+    .safety-date h2 {
+        font-size: 0.7rem;
+        color: #2D2D2D;
+        letter-spacing: 0;
+    }
+    .safety-date div {
+        width: 100%;
+        font-size: 0.6rem;
+        color: #424242;
+        letter-spacing: 0;
+        line-height: 0.8rem;
+    }
+    .adn-container div.safety-date {
+        height: 100%;
+    }
+    .safety-banner .safety-buy {
+        display: block;
+        position: absolute;
+        top: 7rem;
+        left: 4.12rem;
+        width: 5.74rem;
+        height: 1.2rem;
+        line-height: 1.2rem;
+        color: #fff;
+        font-size: 0.5rem;
+        background: url('../images/buttonpic.png');
+        text-align: center;
+        background-size: cover;
+    }
+    .aiCloud .vbn-safe {
+        top: 1.5rem;
+    }
+    .aiCloud .safety-banner .vbn-msg {
+        top: 2.5rem;
+    }
+    .aiCloud-introduce {
+        display: block;
+        margin: 0 1.2rem 0;
+    }
+    .aiCloud-introduce-pc {
+        display: none;
+    }
+    .aiCloud .safety-banner .safety-buy {
+        top: 5.5rem;
+        left: 8.5%;
+    }
+}
+@media (min-width: 768px) {
+    .aiCloud-introduce {
+        display: none;
+    }
+    .aiCloud-introduce-pc {
+        width: 10rem;
+        margin: 0 auto;
+        display: block;
+    }
+    .aiCloud-introduce-pc > h2 {
+        font-size: 0.42rem;
+        color: #2D2D2D;
+        letter-spacing: 0;
+        line-height: 0.52rem;
+        text-align: center;
+        margin: 0.3rem 0 0.5rem;
+    }
+    .aiCloud-introduce-pc > .introduce-title > p {
+        font-size: 0.18rem;
+        color: #2D2D2D;
+        letter-spacing: 0;
+        line-height: 0.28rem;
+        margin-bottom: 0.2rem;
+    }
+    .aiCloud-introduce-pc > .introduce-title > p:nth-child(1) {
+        margin: 0.5rem 0 0.5rem;
+        font-size: 0.24rem;
+    }
+    .aiCloud-introduce-pc > .introduce-title:nth-child(2) > img {
+        width: 10rem;
+        height: 4.35rem;
+    }
+    .aiCloud-introduce-pc > .introduce-title:nth-child(3) > img {
+        width: 10rem;
+        height: 5.22rem;
+    }
+    .aiCloud-introduce-pc > .introduce-title:nth-child(4) > img {
+        width: 10rem;
+        height: 3.82rem;
+    }
+    .aiCloud-introduce-pc > .introduce-title:nth-child(5) > img {
+        width: 10rem;
+        height: 5.29rem;
+    }
+}

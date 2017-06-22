@@ -1,0 +1,643 @@
+/*====================== Meta  CSS Start ===============*/
+
+
+
+
+.meta-color {
+
+    background: -webkit-linear-gradient(-180deg, #191919 2%, #2F2F2F 100%);
+
+    background: -ms-linear-gradient(-180deg, #191919 2%, #2F2F2F 100%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#191919, endColorstr=#2F2F2F);
+
+}
+
+.meta-banner {
+
+    display: block;
+
+    position: relative;
+
+    text-align: center;
+
+    height: 12rem;
+
+}
+
+.meta-banner .meta-robot {
+
+    position: absolute;
+
+    font-size: 0.64rem;
+
+    color: #FFFFFF;
+
+    top: 1.2rem;
+
+    left: 36.1%;
+
+}
+
+.meta-banner .meta-help {
+
+    font-size: 0.24rem;
+
+    color: #FFFFFF;
+
+    position: absolute;
+
+    top: 2.29rem;
+
+    left: 33.1%;
+
+    letter-spacing: 0;
+
+}
+
+.meta-banner .porject-information {
+
+    font-size: 0.24rem;
+
+    position: absolute;
+
+    top: 2.83rem;
+
+    left: 46.9%;
+
+    cursor: pointer;
+
+}
+
+.meta-banner .porject-information span {
+
+    color: #FF394F;
+
+}
+
+.meta-container {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+.meta-top {
+
+    width: 9rem;
+
+    color: #fff;
+
+    margin: 0 auto;
+
+}
+
+.meta-details {
+
+    color: #fff;
+
+    position: relative;
+
+    height: 8.75rem;
+
+}
+
+.meta-details:first-child .meta_2 {
+
+    display: block;
+
+    width: 4.67rem;
+
+    height: 6.82rem;
+
+    position: absolute;
+
+    top: 1.19rem;
+
+    left: 15.5%;
+
+}
+
+.meta-details:first-child p a {
+
+    font-size: 0.18rem;
+
+    color: #FF394F;
+
+}
+
+.meta-details:nth-child(2) .meta_3 {
+
+    width: 7.04rem;
+
+    height: 6.89rem;
+
+    position: absolute;
+
+    top: 1.1rem;
+
+    right: 11.9%;
+
+}
+
+.meta-icon,.e1-icon {
+
+    height: 100%;
+
+    padding: 1.65rem 0 1rem;
+
+    text-align: center;
+
+}
+
+.meta-icon {
+
+    margin: 0 1.4rem;
+
+}
+
+.e1-meta {
+
+    opacity: 0.69;
+
+    font-size: 0.18rem;
+
+    color: #FFFFFF;
+
+}
+
+.e1-meta div {
+
+    margin-bottom: 0.1rem;
+
+}
+
+.meta-icon  .meta-title {
+
+    font-size: 0.24rem;
+
+    color: #FFFFFF;
+
+}
+
+.meta-icon div {
+
+    opacity: 0.69;
+
+    font-size: 0.18rem;
+
+    color: #FFFFFF;
+
+}
+
+.meta-details:first-child h2 {
+
+    font-size: 0.42rem;
+
+    color: #FFFFFF;
+
+    position: absolute;
+
+    top: 3.48rem;
+
+    right: 16.1%;
+
+}
+
+.meta-details:first-child > div {
+
+    position: absolute;
+
+    top: 4.16rem;
+
+    right: 16.4%;
+
+}
+
+.meta-details:first-child > div > div {
+
+    margin-bottom: 0.2rem;
+
+}
+
+
+
+.meta-details:first-child p {
+
+    font-size: 0.18rem;
+
+    color: #FFFFFF;
+
+    line-height: 0.24rem;
+
+    text-align: right;
+
+}
+
+.meta-details:nth-child(2) h2 {
+
+    position: absolute;
+
+    top: 3.36rem;
+
+    left: 16.1%;
+
+    width: 9.72rem;
+
+    font-size: 0.42rem;
+
+    color: #FFFFFF;
+
+}
+
+.meta-details:nth-child(2) p {
+
+    position: absolute;
+
+    top: 4.92rem;
+
+    left: 16.4%;
+
+    width: 7.82rem;
+
+    font-size: 0.18rem;
+
+    color: #FFFFFF;
+
+    line-height: 0.24rem;
+
+}
+
+.meta-details:last-child {
+
+    height: 5.36rem;
+
+    background: #191919;
+
+}
+
+.meta-details:last-child h2 {
+
+    position: absolute;
+
+    font-size: 0.42rem;
+
+    color: #FFFFFF;
+
+    top: 1.99rem;
+
+    width: 100%;
+
+    text-align: center;
+
+}
+
+.meta-details:last-child p {
+
+    position: absolute;
+
+    top: 2.97rem;
+
+    font-size: 0.18rem;
+
+    color: #FFFFFF;
+
+    line-height: 0.4rem;
+
+    width: 100%;
+
+    text-align: center;
+
+}
+
+.meta-top .meta-buttom .icon-title,.meta-top .meta-buttom .e1-t,.meta-top .meta-buttom .e1-b {
+
+    color: #FFFFFF;
+
+}
+
+.meta-details img {
+
+    width: 19.2rem;
+
+}
+
+.meta-banner > img {
+
+    width: 19.2rem;
+
+}
+
+.meta-banner-pic:first-child {
+
+    background-image: url(../images/meta/1-copy.png);
+
+    background-size: cover;
+
+    width: 2.52rem;
+
+    height: 5.06rem;
+
+    position: absolute;
+
+    top: 0;
+
+    right: 0;
+
+}
+
+.meta-banner-pic:nth-child(2) {
+
+    background-image: url(../images/meta/1-copy2.png);
+
+    background-size: cover;
+
+    width: 3.4rem;
+
+    height: 3.33rem;
+
+    position: absolute;
+
+    top: 0.57rem;
+
+    left: 2.8%;
+
+}
+
+.meta-banner-pic:last-child {
+
+    background-image: url(../images/meta/1.png);
+
+    background-size: cover;
+
+    width: 9.1rem;
+
+    height: 6.65rem;
+
+    position: absolute;
+
+    top: 3.9rem;
+
+    left: 26%;
+
+}
+
+.meta-top-pic1 {
+
+    background-image: url(../images/meta/pic1.png);
+
+    background-size: cover;
+
+}
+
+.meta-top-pic2 {
+
+    background-image: url(../images/meta/pic2.png);
+
+    background-size: cover;
+
+}
+
+.meta-top-pic3 {
+
+    background-image: url(../images/meta/pic3.png);
+
+    background-size: cover;
+
+}
+
+.meta_2 {
+
+    background-image: url(../images/meta/meta_2.png);
+
+    background-size: cover;
+
+}
+
+.meta_3 {
+
+    background-image: url(../images/meta/meta_3.png);
+
+    background-size: cover;
+
+}
+
+@media (max-width: 768px) {
+
+    .meta-top .e1-icon .meta-top-pic1 {
+
+        width: 2.1rem;
+
+        height: 2.1rem;
+
+        background-image: url(../images/meta/pic4.png);
+
+        background-size: cover;
+
+    }
+
+    .meta-top .e1-icon .meta-top-pic2 {
+
+        width: 2.1rem;
+
+        height: 2.1rem;
+
+        background-image: url(../images/meta/pic5.png);
+
+        background-size: cover;
+
+    }
+
+    .meta-top .e1-icon .meta-top-pic3 {
+
+        width: 2.1rem;
+
+        height: 2.1rem;
+
+        background-image: url(../images/meta/pic6.png);
+
+        background-size: cover;
+
+    }
+
+    .meta-details:nth-child(1) .meta_2 {
+
+        width: 6.28rem;
+
+        height: 9.05rem;
+
+        background-image: url(../images/meta/4.png);
+
+        background-size: cover;
+
+        margin: 0 auto;
+
+    }
+
+    .meta-banner .meta-robot {
+
+        font-size: 0.8rem;
+
+    }
+
+    .meta-banner .meta-help {
+
+        width: 9.3rem;
+
+        font-size: 0.6rem;
+
+        left: 18%;
+
+    }
+
+    .meta-banner .porject-information {
+
+        font-size: 0.5rem;
+
+        top: 4.4rem;
+
+        left: 43%;
+
+    }
+
+    .meta-banner-pic:last-child {
+
+        top: 6rem;
+
+        left: 20%;
+
+    }
+
+    .meta-details {
+
+        height: 16rem;
+
+    }
+
+    .meta-details:nth-child(2) {
+
+        height: 18rem;
+
+    }
+
+    .meta-details:first-child img {
+
+        left: 39%;
+
+    }
+
+    .meta-details:first-child h2 {
+
+        font-size: 0.6rem;
+
+        top: 9.5rem;
+
+        left: 20%;
+
+    }
+
+    .meta-details:first-child p {
+
+        font-size: 0.5rem;
+
+        line-height: 0.7rem;
+
+        text-align: center;
+
+    }
+
+    .meta-details:first-child > div  {
+
+        width: 12rem;
+
+        top: 10.9rem;
+
+        left: 9%;
+
+        font-size: 0.5rem;
+
+    }
+
+    .meta-details:nth-child(2) .meta_3 {
+
+        top: 5rem;
+
+        left: 27%;
+
+    }
+
+    .meta-details:nth-child(2) h2 {
+
+        font-size: 0.6rem;
+
+        top: 11rem;
+
+        left: 16%;
+
+        text-align: center;
+
+    }
+
+    .meta-details:nth-child(2) p {
+
+        width: 12rem;
+
+        font-size: 0.5rem;
+
+        line-height: 0.7rem;
+
+        left: 9%;
+
+        top: 13.5rem;
+
+    }
+
+    .meta-details:last-child h2 {
+
+        font-size: 0.6rem;
+
+    }
+
+    .meta-details:last-child p {
+
+        font-size: 0.36rem;
+
+        line-height: 0.7rem;
+
+    }
+
+    .e1-buttom .icon-title {
+
+        font-size: 0.6rem;
+
+    }
+
+    .e1-meta {
+
+        font-size: 0.5rem;
+
+    }
+
+    .meta-top {
+
+        width: 100%;
+
+    }
+
+    .meta-banner .meta-robot {
+
+        left: 29%;
+
+        font-size: 0.8rem;
+
+    }
+
+    .meta-details:last-child {
+
+        background: #2E2E2E;
+
+    }
+
+}
+/*====================== Meta  CSS end ===============*/

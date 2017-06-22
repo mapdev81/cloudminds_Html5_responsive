@@ -1,0 +1,365 @@
+.solution-detail .container {
+  width: 9.8rem;
+}
+.container {
+  overflow: hidden;
+}
+.container .row .project-explain {
+  width: 100%;
+  margin-bottom: 0.4rem;
+  overflow: hidden;
+  position: relative;
+}
+.container .row .project-explain .see-all {
+  position: absolute;
+  top: 0.78rem;
+  left: 4.27rem;
+}
+.container .row .project-explain .see-all a {
+  font-size: 0.24rem;
+  color: #EF57A8;
+  letter-spacing: 0px;
+  text-decoration: none;
+}
+.container .row .project-explain .see-all a:hover {
+  text-decoration: underline;
+}
+.container .row .project-explain .project-explain-pic {
+  width: 12.4rem;
+  height: 4.2rem;
+}
+.container .row .project-explain .solution-previous {
+  display: block;
+  float: left;
+  margin: 0.57rem 0 0.64rem;
+  line-height: 0.74rem;
+  font-size: 0.24rem;
+  color: #555555;
+}
+.container .row .project-explain .solution-previous:before {
+  content: '<';
+  display: none;
+}
+.container .row .project-explain .solution-previous span {
+  float: left;
+  cursor: pointer;
+  margin-right: 0.2rem;
+}
+.container .row .project-explain .solution-previous a:hover {
+  color: #EF57A8;
+  text-decoration: underline;
+}
+.container .row .project-explain .solution-next {
+  display: block;
+  margin: 0.57rem 0 0.64rem;
+  float: right;
+  line-height: 0.74rem;
+  font-size: 0.24rem;
+  color: #555555;
+}
+.container .row .project-explain .solution-next:after {
+  content: '>';
+  display: none;
+}
+.container .row .project-explain .solution-next span {
+  float: left;
+  cursor: pointer;
+  margin-left: 0.2rem;
+}
+.container .row .project-explain .solution-next a:hover {
+  color: #EF57A8;
+  text-decoration: underline;
+}
+.container .row .bg-explain {
+  margin-bottom: 0.4rem;
+}
+.container .row .bg-explain h4 {
+  line-height: 0.4rem;
+  margin: 0.6rem 0 0.1rem;
+  font-size: 0.3rem;
+  text-align: center;
+}
+.container .row .bg-explain h4 a {
+  color: #2D2D2D;
+}
+.container .row .bg-explain h5 {
+  font-size: 0.24rem;
+  color: #2D2D2D;
+  margin-bottom: 0.1rem;
+  text-align: center;
+  margin-bottom: 0.4rem;
+}
+.container .row .bg-explain p {
+  font-size: 0.18rem;
+  letter-spacing: 0px;
+  line-height: 0.28rem;
+}
+.container .row .bg-explain p a {
+  color: #424242;
+}
+.container .row .provide {
+  margin-bottom: 0.2rem;
+}
+.container .row .provide h4 {
+  font-size: 0.30rem;
+  color: #2D2D2D;
+  margin: 0.6rem 0 0.32rem;
+  text-align: center;
+}
+.container .row .provide h4 a {
+  color: #2D2D2D;
+}
+.container .row .provide .provide-container {
+  overflow: hidden;
+  position: relative;
+}
+.container .row .provide .provide-container dt {
+  width: 2rem;
+  height: 2rem;
+}
+.container .row .provide .provide-container dt img {
+  width: 100%;
+  height: 100%;
+}
+.container .row .provide .provide-container dd h5 {
+  font-size: 0.24rem;
+  color: #424242;
+  letter-spacing: 0px;
+  margin-bottom: 0.1rem;
+}
+.container .row .provide .provide-container dd p {
+  font-size: 0.18rem;
+  letter-spacing: 0px;
+  line-height: 0.28rem;
+}
+.container .row .provide .provide-container dd p a {
+  color: #424242;
+}
+.container .row .provide .left dt {
+  float: left;
+  margin-right: 0.2rem;
+  overflow: hidden;
+  margin-bottom: 0.4rem;
+}
+.container .row .provide .left .pic-explain {
+  position: absolute;
+  bottom: 17%;
+  left: 2.25rem;
+  font-size: 0.14rem;
+}
+.container .row .provide .left .pic-explain a {
+  color: #424242;
+}
+.container .row .provide .right dt {
+  float: right;
+  margin-left: 0.35rem;
+  overflow: hidden;
+  margin-bottom: 0.61rem;
+}
+.container .row .provide .right .pic-explain {
+  position: absolute;
+  bottom: 19%;
+  right: 3.65rem;
+  font-size: 0.14rem;
+  color: #666666;
+}
+.container .row .provide .font {
+  margin-bottom: 0.14rem;
+}
+.container .row .project-about {
+  padding: 0.6rem 0 0;
+  overflow: hidden;
+}
+.container .row .project-about h2 {
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 0.2rem;
+  font-size: 0.42rem;
+  color: #2D2D2D;
+}
+.container .row .project-about p {
+  font-size: 0.24rem;
+  color: #555555;
+  letter-spacing: 0px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 0.4rem;
+}
+.container .row .project-about p a:hover {
+  text-decoration: underline;
+}
+.container .row .project-about .project-about-module {
+  width: 4rem;
+  height: 3.44rem;
+  margin-right: 0.5rem;
+  float: left;
+  margin-bottom: 0.6rem;
+}
+.container .row .project-about .project-about-module:nth-child(5) {
+  margin-right: 0;
+}
+.container .row .project-about .project-about-module dt {
+  width: 4rem;
+  height: 2.7rem;
+}
+.container .row .project-about .project-about-module dt img {
+  width: 100%;
+  height: 100%;
+}
+.container .row .project-about .project-about-module dd h4 {
+  text-align: center;
+  height: 0.74rem;
+  line-height: 0.74rem;
+  color: #2D2D2D;
+  font-size: 0.24rem;
+  background-color: #fff;
+}
+.container .row .project-about .project-about-book {
+  width: 4rem;
+  margin-right: 0.5rem;
+  float: left;
+}
+.container .row .project-about .project-about-book:nth-child(5) {
+  margin-right: 0;
+}
+.container .row .project-about .project-about-book dt {
+  width: 4rem;
+  height: 5.74rem;
+  background: url(../images/solution-baipishu.png) no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+.container .row .project-about .project-about-book dt h4 {
+  position: absolute;
+  bottom: 0.19rem;
+  left: 1.64rem;
+  font-size: 0.24rem;
+  color: #2D2D2D;
+  text-align: center;
+}
+.container .row .project-about .project-about-book dd {
+  text-align: center;
+  line-height: 0.24rem;
+}
+.container .row .project-about .project-about-book button {
+  padding: 0.11rem 0.13rem;
+  background-color: #F5F5F5;
+  border: 1px solid rgba(151, 151, 151, 0.6);
+  border-radius: 4px;
+  font-size: 0.18rem;
+  color: #424242;
+  letter-spacing: 0px;
+  margin: 0.29rem 0 0.61rem;
+  line-height: 0.22rem;
+}
+.container .row .project-about .project-about-book button img {
+  width: 0.28rem;
+  height: 0.22rem;
+  float: left;
+  margin-right: 0.1rem;
+}
+.container .row .project-about .project-about-book button.solution-down {
+  background-color: #3594ea;
+  border-color: #3594ea;
+  color: #fff;
+}
+.project-about-container {
+  background-color: #f5f5f5;
+}
+.solution-detail .banner_container {
+  background: url(../images/banner_successful.png);
+  background-size: cover;
+  height: 3.8rem;
+}
+.solution-detail .banner_container .contact {
+  background-color: #EF57A8;
+  border-color: #EF57A8;
+  top: 3.28rem;
+}
+.solution-detail .banner_container .banner_label_container {
+  margin-top: 0.6rem;
+}
+.solution-detail .banner_container .banner_label_container h1 {
+  font-size: 0.42rem;
+}
+.solution-detail .banner_container .banner_label_container p {
+  font-size: 0.24rem;
+  line-height: 0.4rem;
+  width: 7.8rem;
+  margin: 0;
+}
+.solution-detail .banner_container .banner_label_container a:hover {
+  background-color: #d63c8e;
+  border-color: #d63c8e;
+}
+@media (max-width: 767px) {
+  .solution-detail .container {
+    width: 12rem;
+  }
+  .solution-detail .banner_container {
+    height: 5rem;
+  }
+  .solution-detail .i-solution-case-container .container {
+    width: 84%;
+  }
+  .solution-detail .banner_container .banner_label_container h1 {
+    font-size: 16px;
+  }
+  .solution-detail .banner_container .banner_label_container {
+    margin: 0.71rem 0 0 1.2rem;
+  }
+  .solution-detail .banner_container .banner_label_container p {
+    font-size: 12px;
+    line-height: 16px;
+    width: 95%;
+  }
+  .banner_container .banner_label_container .contact {
+    width: 4.8rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    font-size: 12px;
+  }
+  .container .row .project-explain .solution-previous:before {
+    content: '<';
+    display: block ;
+    float: left;
+  }
+  .container .row .project-explain .solution-previous span {
+    display: none;
+  }
+  .container .row .project-explain .solution-next:before {
+    content: '>';
+    display: block ;
+    float: right;
+  }
+  .container .row .project-explain .solution-next span {
+    display: none;
+  }
+  .container .row .project-explain .solution-previous,
+  .container .row .project-explain .solution-next {
+    line-height: 0.74rem;
+    font-size: 0.4rem;
+  }
+  .container .row .project-explain .see-all a {
+    font-size: 0.4rem;
+  }
+  .container .row .project-explain .see-all {
+    top: 0.7rem;
+    left: 5.1rem;
+  }
+  .solution-detail p {
+    margin-left: 0!important;
+  }
+  .solution-detail p > img {
+    width: 100%!important;
+    height: auto!important;
+  }
+  .solution-detail p > span > img {
+    width: 100%!important;
+    height: auto!important;
+  }
+
+    .solution-detail img {
+        max-width: 100%;
+    }
+}

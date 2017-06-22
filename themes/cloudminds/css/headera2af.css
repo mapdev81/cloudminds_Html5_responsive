@@ -1,0 +1,334 @@
+#header {
+    /*position: absolute;*/
+    /*top:0;*/
+    /*left:0;*/
+    /*height: 0.8rem;*/
+    /*line-height: 0.62rem;*/
+    width: 100%;
+    /*background-color: rgba(0,0,0,.2);*/
+    background-color: #fff;
+    font-size: 0.18rem;
+    /*z-index:99999;*/
+}
+
+#header .navbar {
+    /*width: 13rem;*/
+    margin: 0 auto;
+    border: none;
+    min-height: 20px;
+}
+
+@media (min-width: 767px) {
+    #header .nav-container {
+        width: 13rem;
+        margin: 0 auto;
+    }
+
+    #header .nav li a {
+        color: #2d2d2d;
+        font-size: 0.16rem;
+    }
+
+    #header .nav li a:hover {
+        background-color: #fff;
+    }
+
+    #header .nav > li > a {
+        color: #2d2d2d;
+        background-color: #fff;
+        /*height: 0.8rem;*/
+        line-height: 0.8rem;
+        padding: 0 0.3rem;
+        font-size: 0.18rem;
+    }
+
+    #header .nav > li > a:hover {
+        background-color: #F2F2F2;
+    }
+}
+
+#header .navbar-toggle .icon-bar {
+    background: #4C4A4C;
+}
+
+.search-btn {
+    cursor: pointer;
+}
+
+#header .nav > li.lang-btns a {
+    display: inline-block;
+    padding: 0;
+    cursor: pointer;
+}
+
+#header .nav > li.lang-btns a:hover {
+    background-color: #FFFFFF;
+}
+
+/*#header .container h1 {*/
+/*float: left;*/
+/*width: 2.24rem;*/
+/*width: 1.84rem;*/
+/*height: 0.58rem;*/
+/*background: url(../images/cloudminds-logo.png) no-repeat left;*/
+/*margin-top: 0.07rem;*/
+/*}*/
+
+/*#header .navbar-brand {*/
+/*float: left;*/
+/*margin: 0.16rem 0.44rem 0 0;*/
+/*width: 1.55rem;*/
+/*height: 0.43rem;*/
+/*line-height: 0.43rem;*/
+/*}*/
+
+#header .navbar-brand {
+    display: block;
+    margin-top: 0.18rem;
+    width: 1.55rem;
+    height: 0.45rem;
+    background: url(../images/logo.svg);
+    background-size: 100% 100%;
+}
+
+#header .header-nav {
+    float: left;
+}
+
+#header .header-nav li {
+    float: left;
+    line-height: 0.8rem;
+    padding: 0 0.14rem;
+}
+
+#header .header-nav li a {
+    color: #2d2d2d;
+}
+
+/*#header .header-lang {*/
+    /*float: right;*/
+    /*!*font-size: 14px;*!*/
+/*}*/
+
+/*#header .header-lang li {*/
+    /*float: left;*/
+    /*line-height: 0.8rem;*/
+    /*cursor: pointer;*/
+    /*color: rgba(0, 0, 0, .5);*/
+    /*font-size: 0.18rem;*/
+/*}*/
+
+#header .lang-btns span.active {
+    /*font-size: 20px;*/
+    /*line-height: 74px;*/
+    color: #1c1c1c;
+    font-weight: 600;
+}
+
+#header .header-lang li i {
+    margin-right: 0.28rem;
+    font-size: 0.18rem;
+    color: #4C4A4C;
+}
+
+#header .dropdown .dropdown-menu {
+    background-color: #fff;
+    border: none;
+    min-width: 1.6rem;
+    padding: 0.2rem 0;
+}
+
+#header .dropdown .dropdown-menu:hover {
+    /*font-size: 0.14rem;*/
+}
+
+#header .dropdown-menu {
+    margin-top: 0.18rem;
+}
+.index-search-error{
+      text-indent: 24px;
+      line-height: 30px;
+      color: #f00;
+      display: none;
+  }
+@media (max-width: 767px) {
+    #header {
+        height: 1.8rem;
+    }
+
+    #header .nav-container {
+        width: 100%;
+        background-color: #FFFFFF;
+        position: fixed;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    #header .navbar-brand {
+        display: block;
+        margin-top: 0.2rem;
+        margin-left: 0.68rem;
+        width: 5.2rem;
+        height: 1.5rem;
+        background: url(../images/logo.svg);
+        background-size: 100% 100%;
+    }
+
+    #header .navbar-toggle {
+        float: right;
+        padding: 0.25rem 0.10rem;
+        margin-top: 0.4rem;
+        margin-right: 0.6rem;
+        margin-bottom: 0.4rem;
+        border-radius: 2px;
+        height: 1.13rem;
+    }
+
+    #header .navbar-toggle .icon-bar {
+        width: 0.64rem;
+    }
+
+    #header .navbar-collapse {
+        margin: 0px;
+        padding: 0px;
+        border-top: none;
+        box-shadow: 3px 3px 5px #888888;
+    }
+
+    #header .nav li {
+        padding: 0 0.68rem;
+    }
+
+    #header .nav li a {
+        color: #2d2d2d;
+        font-size: 0.5rem;
+    }
+
+    #header .nav li a:hover {
+        background-color: #fff;
+    }
+
+    #header .nav > li > a {
+        color: #2d2d2d;
+        background-color: #fff;
+        /*height: 0.8rem;*/
+        line-height: 1.5rem;
+        padding: 0;
+        font-size: 0.5rem;
+    }
+
+    #header .nav > li > a:hover {
+        background-color: #F2F2F2;
+    }
+
+    #header .nav > li:not(:last-child) > a {
+        border-bottom: 1px solid #D8D8D8;;
+    }
+
+    #header .navbar-nav {
+        margin: 0;
+    }
+
+    .nav-buttons {
+        display: none;
+    }
+
+    .navbar-nav .open .dropdown-menu {
+        display: none;
+    }
+}
+
+.header-search {
+    padding: 0;
+    border: 1px solid #1994EC;
+}
+
+#header .one-column {
+    text-align: center;
+}
+
+#header .two-column {
+    text-align: center;
+}
+
+#header .only-second-menu-wrapper {
+    display: table-cell;
+}
+
+#header .only-second-menu-wrapper li {
+    width: 1.6rem;
+    min-width: 120px;
+    line-height: 0.8rem;
+    text-align: left;
+    padding-left: 0.15rem;
+}
+
+#header li.second-menu {
+    display: table-cell;
+    width: 2.2rem;
+}
+
+#header li.second-menu:not(:last-child) {
+    border-right: 1px solid #E5E5E5;
+}
+
+#header li.second-menu a {
+    padding: 0.03rem 0.35rem;
+    width: 2rem;
+    font-size: 0.16rem;
+}
+
+#header li.second-menu > a {
+    opacity: .4;
+}
+
+#header li.second-menu .third-menu > li {
+    padding: 0.03rem 0.2rem;
+}
+
+#header li.second-menu .third-menu > li > a {
+    display: block;
+    color: #2d2d2dFFF;
+    padding-left: 0.15rem;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    white-space: nowrap;
+    background: url('../images/nav_li_icon.png') left center no-repeat;
+}
+
+#header li.second-menu .third-menu > li > a {
+    background: url('../images/nav_li_icon_active.png') left center no-repeat;
+}
+
+#header .dropdown.open .arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    line-height: 0;
+    font-size: 0;
+    vertical-align: middle;
+    border: 0.07rem solid transparent;
+    _color: #fff;
+    _filter: chroma(color=#fff);
+    border-top: 0 none;
+    border-bottom: 0.08rem solid #fff;
+    position: absolute;
+    bottom: -0.18rem;
+    left: 30%;
+    z-index: 1000;
+}
+
+.index-search {
+    /*line-height: 0.6rem;*/
+    padding: 0.25rem 0.12rem 0 0 !important;
+    height: 0.6rem;
+    overflow: hidden;
+
+}
+
+.index-input {
+    height: 0.6rem !important;
+}

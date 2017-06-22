@@ -1,0 +1,92 @@
+.success-case {
+}
+.success-case .container {
+  width: 13rem;
+}
+.success-case .case-banner-font {
+  position: absolute;
+  top: 2.91rem;
+  left: 4.04rem;
+}
+.success-case .case-banner-font h1 {
+  font-size: 0.64rem;
+  color: #FFFFFF;
+  letter-spacing: 0px;
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+}
+.success-case .case-banner-font p {
+  font-size: 0.24rem;
+  color: #FFFFFF;
+  letter-spacing: 0px;
+  margin: 0.41rem 0  0;
+}
+.success-case .banner_container {
+  background: url(../images/banner_case.png);
+  background-size: cover;
+}
+.success-case .company-introduce {
+  padding: 0.69rem 0;
+  overflow: hidden;
+}
+.success-case .company-introduce h1 {
+  font-size: 0.42rem;
+  color: #2D2D2D;
+}
+.success-case .company-introduce dt {
+  width: 3.65rem;
+  height: 2.4rem;
+  float: left;
+}
+.success-case .company-introduce dt img {
+  width: 100%;
+}
+.success-case .company-introduce dd {
+  width: 8.05rem;
+  height: 2.4rem;
+  float: right;
+  font-size: 0.18rem;
+  color: #424242;
+  letter-spacing: 0px;
+  line-height: 0.24rem;
+}
+.success-case .client-need {
+  overflow: hidden;
+  background-color: #f5f5f5;
+}
+.success-case .client-need h1 {
+  font-size: 0.42rem;
+  color: #2D2D2D;
+  margin: 0.7rem 0 0.36rem;
+}
+.success-case .client-need p {
+  font-size: 0.18rem;
+  color: #424242;
+  letter-spacing: 0px;
+  line-height: 0.24rem;
+}
+.success-case .client-need .client-need-font {
+  margin-top: 0.15rem;
+  margin-bottom: 0.6rem;
+}
+.success-case .solution-case {
+  margin-bottom: 0.6rem;
+}
+.success-case .solution-case h1 {
+  font-size: 0.42rem;
+  color: #2D2D2D;
+  margin: 0.7rem 0 0.36rem;
+}
+.success-case .solution-case img {
+  width: 100%;
+  margin-bottom: 0.15rem;
+}
+.success-case .solution-case p {
+  font-size: 0.18rem;
+  color: #424242;
+  letter-spacing: 0px;
+  line-height: 0.24rem;
+  margin-top: 0.4rem;
+}
+.success-case .solution-case .client-need-font {
+  margin-top: 0.15rem;
+}

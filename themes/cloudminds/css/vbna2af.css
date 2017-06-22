@@ -1,0 +1,126 @@
+.vbn-safe {
+    position: absolute;
+    left: 4.12rem;
+    top: 2.7rem;
+    font-size: 0.64rem;
+    color: #FFFFFF;
+    letter-spacing: 0rem;
+    text-shadow: 0px 1px 4px rgba(0,0,0,0.20);
+}
+.vbn-msg {
+    width: 3.12rem;
+    height: 1.02rem;
+    position: absolute;
+    left: 4.12rem;
+    top: 3.64rem;
+    font-size: 0.24rem;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+.vbn-msg p {
+    width: 3.12rem;
+}
+.vbn-t {
+    text-align: center;
+    margin-top: 0.6rem;
+}
+.vbn-title {
+    font-size: 0.36rem;
+    color: #2D2D2D;
+    letter-spacing: 0rem;
+    margin: 0.73rem 0 0.67rem;
+    text-align: center;
+}
+.vbn-t .vbn-subtitle {
+    margin-bottom: 0.1rem;
+}
+.vbn-t .vbn-subtitle p {
+    font-size: 0.42rem;
+    color: #2D2D2D;
+    letter-spacing: 0rem;
+    line-height: 0.52rem;
+}
+.vbn-t p {
+    font-size: 0.24rem;
+    color: #424242;
+    letter-spacing: 0rem;
+}
+.vbn-date {
+    margin: 0.4rem 2.6rem 0.61rem;
+    padding-left: 0.5rem;
+}
+.safety-date .vbn-center {
+    text-align: center;
+}
+.vbn-container .safety-date {
+    height: 4.9rem;
+}
+.vbn-container .safety-date img {
+    height: 4.9rem;
+}
+.vbn-container div.safety-date {
+    margin-bottom: 0.15rem;
+    padding: 0;
+    text-align: center;
+}
+.vbn .safety-banner .safety-buy {
+    display: block;
+    position: absolute;
+    top: 5.3rem;
+    left: 4.12rem;
+    width: 3.36rem;
+    height: 0.72rem;
+    line-height: 0.72rem;
+    color: #fff;
+    font-size: 0.2rem;
+    background: url('../images/buttonpic.png');
+    text-align: center;
+    background-size: cover;
+}
+.vbn .safety-banner .safety-buy:hover {
+    background: url('../images/buttonclick.png');
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .vbn .vbn-safe {
+        top: 1.5rem;
+        font-size: 0.8rem;
+    }
+    .vbn .safety-banner .vbn-msg {
+        top: 2.5rem;
+    }
+    .vbn .safety-date h2 {
+        margin-bottom: 0.5rem;
+    }
+    .vbn .safety-banner .safety-buy {
+        top: 5rem;
+        left: 8.5%;
+    }
+    .vbn-msg p {
+        width: 6.1rem;
+    }
+    .safety-banner .vbn-msg {
+        width: 8.5rem;
+        height: 1.38rem;
+        font-size: 0.5rem;
+        margin-top: 0.3rem;
+    }
+    .vbn-container div.safety-date img:first-child {
+        display: none;
+    }
+    .vbn-container div.safety-date img:nth-child(2) {
+        display: block;
+        width: 4.2rem;
+        height: 4.2rem;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 768px) {
+    .vbn-container div.safety-date img:first-child {
+        display: block;
+    }
+    .vbn-container div.safety-date img:nth-child(2) {
+        display: none;
+    }
+}

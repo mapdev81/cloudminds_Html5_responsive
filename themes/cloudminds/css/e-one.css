@@ -1,0 +1,882 @@
+
+
+.e1-banner {
+
+    height: 8.75rem;
+
+    position: relative;
+
+    text-align: center;
+
+}
+
+.banner-style h2 {
+
+    font-size: 0.64rem;
+
+    color: #FFFFFF;
+
+}
+
+.banner-style p {
+
+    font-size: 0.24rem;
+
+    color: #FFFFFF;
+
+}
+
+.banner-style > a span{
+
+    color: #FFFFFF;
+
+    width: 4.15rem;
+
+    font-size: 0.24rem;
+
+}
+
+.e1-banner h2{
+
+    position: absolute;
+
+    top: 3.28rem;
+
+    right: 27.1%;
+
+}
+
+.e1-banner p {
+
+    width: 4.15rem;
+
+    position: absolute;
+
+    top: 4.27rem;
+
+    right: 25.7%;
+
+}
+
+.e1-banner > a > span {
+
+    position: absolute;
+
+    top: 5.3rem;
+
+    right: 25.7%;
+
+    cursor: pointer;
+
+}
+
+.e1-banner > a > span:hover {
+
+    text-decoration:underline
+
+}
+
+.subnav .e1-icon {
+
+    height: 7.5rem;
+
+    text-align: center;
+
+}
+
+.e1-icon > div:first-child {
+
+    width: 1.75rem;
+
+    height: 1.75rem;
+
+    margin: 0 auto;
+
+}
+
+.e1-icon .icon-title {
+
+    font-size: 0.24rem;
+
+    color: #2D2D2D;
+
+}
+
+.e1-buttom {
+
+    width: 100%;
+
+}
+
+.e1-buttom .icon-title {
+
+    font-size: 0.24rem;
+
+    color: #2D2D2D;
+
+    margin: 0.9rem 0 0.4rem;
+
+}
+
+.e1-buttom .e1-t,.e1-buttom .e1-b {
+
+    font-size: 0.18rem;
+
+    color: #424242;
+
+    margin-bottom: 0.2rem;
+
+}
+
+
+
+.container-style .e1-details:nth-child(2) .details h2 {
+
+    font-size: 0.42rem;
+
+    color: #2D2D2D;
+
+}
+
+.container-style .details p {
+
+    font-size: 0.18rem;
+
+    color: #2D2D2D;
+
+    line-height: 0.38rem;
+
+}
+
+.e1-details {
+
+    position: relative;
+
+}
+
+.details {
+
+    width: 100%;
+
+    text-align: center;
+
+}
+
+.details-1 {
+
+    position: absolute;
+
+    top: 0.6rem;
+
+}
+
+.details-1 img:nth-child(1) {
+
+    width: 1.6rem;
+
+    height: 1.6rem;
+
+}
+
+.details-1 h2 {
+
+    margin: 0.6rem 0 0.1rem;
+
+    font-size: 0.42rem;
+
+    color: #FFFFFF;
+
+}
+
+.container-style .details-1 p {
+
+    font-size: 0.18rem;
+
+    color: #FFFFFF;
+
+    line-height: 0.38rem;
+
+}
+
+.details-2 {
+
+    position: absolute;
+
+    top: -2.3rem;
+
+}
+
+.details-2 h2 {
+
+    margin: 0.96rem 0 0.14rem;
+
+}
+
+.details-3 {
+
+    position: absolute;
+
+
+
+}
+
+.details-3 h2 {
+
+    color: #FFFFFF;
+
+    font-size: 0.42rem;
+
+}
+
+.container-style .details-3 p {
+
+    font-size: 0.18rem;
+
+    color: #FFFFFF;
+
+    line-height: 0.24rem;
+
+}
+
+.details-3 div {
+
+    margin: 1.5rem auto 0.3rem;
+
+    width: 5.04rem;
+
+}
+
+.container-style .details-3 p {
+
+    width: 5.69rem;
+
+    margin: 0 auto;
+
+    line-height: 0.24rem;
+
+}
+
+.details-4 {
+
+    position: absolute;
+
+    top: 3.46rem;
+
+    left: 21.6%;
+
+    z-index: 1;
+
+}
+
+.details-4 div {
+
+    text-align: left;
+
+    margin-bottom: 0.1rem;
+
+}
+
+.details-4 h2 {
+
+    font-size: 0.42rem;
+
+    color: #2D2D2D;
+
+    margin-bottom: 0.1rem;
+
+}
+
+.container-style .details-4 p {
+
+    width: 5.31rem;
+
+    text-align: left;
+
+    line-height: 0.24rem;
+
+}
+
+.details-5 {
+
+    width: 19.2rem;
+
+    height: 5.36rem;
+
+    background: #FFFFFF;
+
+}
+
+.details-5 h2,.details-5 p,.details-5 div {
+
+    position: absolute;
+
+    width: 100%;
+
+}
+
+.details-5 div {
+
+    top: 2.54rem;
+
+    height: 0.45rem;
+
+
+
+}
+
+.container-style .details-5 h2 {
+
+    top: 2.54rem;
+
+    background-image: linear-gradient(90deg, #68F8C8 2%, #06CDF8 52%, #02CBFB 57%, #021287 96%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1, startColorstr= #68F8C8 2%, endColorstr=#021287 96%);
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+    height: 0.45rem;
+
+    font-size: 0.42rem;
+
+}
+
+.container-style .details-5 p {
+
+    top: 3.22rem;
+
+    line-height: 0.4rem;
+
+}
+
+.e1-details:last-child {
+
+    height: 5.36rem;
+
+}
+
+.row-content {
+
+    width: 13rem;
+
+    margin: 0 auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.e1-details img {
+
+    display: block;
+
+    margin: 0  auto;
+
+}
+
+.e1-details:nth-child(1) > a > img {
+
+    width: 19.2rem;
+
+    height: 10rem;
+
+}
+
+.e1-details:nth-child(2) > img {
+
+    width: 15.91rem;
+
+    height: 7.66rem;
+
+    margin-top: 2.3rem;
+
+}
+
+.e1-details:nth-child(3) img {
+
+    width: 19.2rem;
+
+    height: 10rem;
+
+}
+
+.e1-details:nth-child(4) img {
+
+    width: 12.94rem;
+
+    height: 8.46rem;
+
+}
+
+.e1-details:nth-child(4) {
+
+    height: 9.99rem;
+
+    position: relative;
+
+}
+
+.e1-details:nth-child(4) > img {
+
+    position: absolute;
+
+    top: 1rem;
+
+    right: 7%;
+
+}
+
+.e1-banner > img {
+
+    width: 19.2rem;
+
+    height: 8.75rem;
+
+}
+
+.details-4-position {
+
+    width: 100%;
+
+    height: 3.85rem;
+
+    opacity: 0.5;
+
+    background-image: linear-gradient(-180deg, #FFFFFF 26%, #F6F6F6 100%);
+
+    position: absolute;
+
+    bottom: 0;
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .e1-banner h2 {
+
+        position: absolute;
+
+        left: 40%;
+
+        top: 2.5rem;
+
+    }
+
+    .banner-style h2 {
+
+        font-size: 0.8rem;
+
+        text-align: left;
+
+    }
+
+    .e1-banner p {
+
+        position: absolute;
+
+        top: 3.6rem;
+
+    }
+
+    .banner-style p {
+
+        width: 8.64rem;
+
+        left: 40%;
+
+        text-align: left;
+
+        font-size: 0.5rem;
+
+    }
+
+    .banner-style > a span {
+
+        font-size: 0.5rem;
+
+    }
+
+    .e1-banner a span {
+
+        position: absolute;
+
+        top: 5.3rem;
+
+        left: 40%;
+
+        text-align: left;
+
+    }
+
+    .row-content {
+
+        width: 90%;
+
+    }
+
+    .row-content .e1-icon {
+
+        height: 100%;
+
+        padding: 0.6rem 0 1rem;
+
+    }
+
+    .details-1 h2,.container-style .e1-details:nth-child(2) .details h2,.details-3 h2,.container-style .details-3 p {
+
+        font-size: 0.8rem;
+
+    }
+
+    .container-style .details-1 p,.container-style .details p {
+
+        font-size: 0.6rem;
+
+        line-height: 0.8rem;
+
+        width: 9.84rem;
+
+        margin: 0 auto;
+
+    }
+
+    .details-3 div {
+
+        width: 100%;
+
+        margin: 2rem auto 0.3rem;
+
+    }
+
+    .details-3 h2 {
+
+        width: 9.6rem;
+
+        margin: 0 auto;
+
+    }
+
+    .container-style .details-3 p {
+
+        width: 10rem;
+
+        line-height: 0.8rem;
+
+    }
+
+    .e1-banner > a > img:nth-child(1) {
+
+        display: none;
+
+    }
+
+    .e1-banner > a > img:nth-child(2) {
+
+        display: block;
+
+        width: 14.4rem;
+
+        height: 8rem;
+
+    }
+
+    .row-content .e1-icon img:first-child {
+
+        display: none;
+
+    }
+
+    .row-content .e1-icon img:nth-child(2) {
+
+        display: block;
+
+        width: 2.1rem;
+
+        height: 2.1rem;
+
+        margin: 0 auto;
+
+    }
+
+    .e1-details:nth-child(1) > img:nth-child(2) {
+
+        display: none;
+
+    }
+
+    .e1-details:nth-child(1) > img:nth-child(3) {
+
+        display: block;
+
+        width: 14.4rem;
+
+        height: 14.56rem;
+
+    }
+
+    .details-1 img:nth-child(1) {
+
+        display: none;
+
+    }
+
+    .details-1 img:nth-child(2) {
+
+        display: block;
+
+        width: 2.24rem;
+
+        height: 2.24rem;
+
+    }
+
+    .e1-details:nth-child(2) > img:nth-child(2) {
+
+        display: none;
+
+    }
+
+    .e1-details:nth-child(2) > img:nth-child(3) {
+
+        display: block;
+
+        width: 14.23rem;
+
+        height: 6.91rem;
+
+        margin-top: 5rem;
+
+    }
+
+    .details-1 {
+
+        top: 1.5rem;
+
+    }
+
+    .details-2 {
+
+        top: -4rem;
+
+    }
+
+    .e1-details:nth-child(3) img:nth-child(2) {
+
+        display: none;
+
+    }
+
+    .e1-details:nth-child(3) img:nth-child(3) {
+
+        display: block;
+
+        width: 14.4rem;
+
+        height: 17.04rem;
+
+    }
+
+    .e1-details:nth-child(4) {
+
+        height: 15rem;
+
+    }
+
+    .e1-details:nth-child(4) > img:nth-child(3) {
+
+        display: none;
+
+    }
+
+    .e1-details:nth-child(4) > img:nth-child(4) {
+
+        display: block;
+
+        width: 12.94rem;
+
+        height: 8.46rem;
+
+    }
+
+    .e1-details:nth-child(4) img {
+
+        top: 6rem;
+
+        left: 5%;
+
+    }
+
+    .details-4 {
+
+        top: 1rem;
+
+        left: 8%;
+
+    }
+
+    .details-4 h2 {
+
+        font-size: 0.8rem;
+
+    }
+
+    .container-style .e1-details .details-4  p {
+
+        font-size: 0.6rem;
+
+        line-height: 0.8rem;
+
+        width: 10.4rem;
+
+        margin-left: 0;
+
+    }
+
+    .container-style .e1-details .details-5 p {
+
+        width: 11.72rem;
+
+        font-size: 0.5rem;
+
+        line-height: 0.7rem;
+
+        text-align: center;
+
+        left: 10%;
+
+    }
+
+    .e1 .e1-buttom .e1-t,.e1 .e1-buttom .e1-b {
+
+        font-size: 0.5rem;
+
+        line-height: 0.7rem;
+
+    }
+
+    .container-style .details-5 h2 {
+
+        font-size: 0.6rem;
+
+        height: auto;
+
+        top: 2.3rem;
+
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .e1-banner > a > img:nth-child(1) {
+
+        width: 19.2rem;
+
+        height: 8.75rem;
+
+        display: block;
+
+    }
+
+    .e1-banner > a > img:nth-child(2) {
+
+        display: none;
+
+    }
+
+    .row-content .e1-icon img:first-child {
+
+        display: block;
+
+        margin: 0 auto;
+
+    }
+
+    .row-content .e1-icon img:nth-child(2) {
+
+        display: none;
+
+    }
+
+    .e1-details:nth-child(1) > img:nth-child(2) {
+
+        width: 19.2rem;
+
+        height: 10rem;
+
+        display: block;
+
+    }
+
+    .e1-details:nth-child(1) > img:nth-child(3) {
+
+        display: none;
+
+    }
+
+    .details-1 img:nth-child(1) {
+
+        display: block;
+
+    }
+
+    .details-1 img:nth-child(2) {
+
+        display: none;
+
+    }
+
+    .e1-details:nth-child(2) > img:nth-child(2) {
+
+        display: block;
+
+    }
+
+    .e1-details:nth-child(2) > img:nth-child(3) {
+
+        display: none;
+
+    }
+
+    .e1-details:nth-child(3) img:nth-child(2) {
+
+        display: block;
+
+    }
+
+    .e1-details:nth-child(3) img:nth-child(3) {
+
+        display: none;
+
+    }
+
+    .e1-details:nth-child(4) > img:nth-child(3) {
+
+        display: block;
+
+    }
+
+    .e1-details:nth-child(4) > img:nth-child(4) {
+
+        display: none;
+
+    }
+
+}
+

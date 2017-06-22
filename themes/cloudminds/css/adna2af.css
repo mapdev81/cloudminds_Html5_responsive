@@ -1,0 +1,79 @@
+.adn .safety-banner .safety-buy {
+    display: block;
+    position: absolute;
+    top: 5.3rem;
+    left: 4.12rem;
+    width: 3.36rem;
+    height: 0.72rem;
+    line-height: 0.72rem;
+    color: #fff;
+    font-size: 0.2rem;
+    background: url('../images/adn/buttonpic.png');
+    text-align: center;
+    background-size: cover;
+}
+.adn .safety-banner .safety-buy:hover {
+    background: url('../images/adn/buttonclick.png');
+    background-size: cover;
+}
+@media (max-width: 768px) {
+    .adn .vbn-safe {
+        top: 1.5rem;
+    }
+    .adn .safety-banner .vbn-msg {
+        top: 2.5rem;
+    }
+    .adn .safety-date h2 {
+        margin-bottom: 0.5rem;
+    }
+    .vbn-date {
+        padding-left: 0;
+        margin: 0 1.2rem 0;
+    }
+    .adn-container div.safety-date {
+        font-size: 0.7rem;
+    }
+    .vbn-t {
+        margin-bottom: 1rem;
+    }
+    .vbn-t p {
+        font-size: 0.6rem;
+    }
+    .vbn-t .vbn-subtitle p {
+        font-size: 0.7rem;
+    }
+    .adn-container div.safety-date {
+        margin-bottom: 1rem;
+    }
+    .adn-container div.safety-date img:first-child {
+        display: none;
+    }
+    .adn-container div.safety-date img:nth-child(2) {
+        display: block;
+        width: 4.2rem;
+        height: 4.2rem;
+        margin: 0 auto;
+    }
+    .safety-date h2 {
+        margin: 0.5rem 0 0.6rem;
+    }
+    .vbn-container div.safety-date {
+        height: auto;
+        margin-bottom: 1rem;
+    }
+    .adn .safety-banner .vbn-msg p {
+        width: 6.8rem;
+    }
+    .adn .safety-banner .safety-buy {
+        top: 4.9rem;
+        left: 8.5%;
+    }
+}
+@media (min-width: 768px) {
+    .adn-container div.safety-date img:first-child {
+        display: block;
+    }
+    .adn-container div.safety-date img:nth-child(2) {
+        display: none;
+    }
+}

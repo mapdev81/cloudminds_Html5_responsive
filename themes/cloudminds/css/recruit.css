@@ -1,0 +1,455 @@
+/*=============== Recruit CSS Start ================*/
+.mainimage11{
+
+    height:3.8rem;
+
+    position: relative;
+
+    background: url("../images/recruit.png") no-repeat;
+
+    background-size: cover;
+
+}
+
+.mainimage11 h1{
+
+    font-size: 0.42rem;
+
+    color: #FFFFFF;
+
+    position: absolute;
+
+    top:0.6rem;
+
+    left:3.31rem;
+
+}
+
+.mainimage11 p{
+
+    font-size: 0.24rem;
+
+    color: #FFFFFF;
+
+    line-height: 0.4rem;
+
+    position: absolute;
+
+    width:7.32rem;
+
+    top:1.3rem;
+
+    left:3.5rem;
+
+}
+
+.mainimage11 a{
+
+    position: absolute;
+
+    top: 2.5rem;
+
+    left: 3.5rem;
+
+    display: inline-block;
+
+    width:3.36rem;
+
+    height:0.72rem;
+
+    line-height: 0.72rem;
+
+    font-size: 0.3rem;
+
+    color: #FFFFFF;
+
+    background: #27BCE8;
+
+    border-radius: 0.08rem;
+
+    text-align: center;
+
+}
+
+.mainimage11 a:hover{
+
+    background: #15A8D3;
+
+}
+
+.container1{
+
+    width: 13rem;
+
+    padding:0.6rem 0;
+
+    margin:0 auto;
+
+}
+
+.container1 .box{
+
+    overflow: hidden;
+
+}
+
+.container1 .box section{
+
+    width:4rem;
+
+    float: left;
+
+    text-align: center;
+
+}
+
+.container1 .box section img{
+
+    width:2.3rem;
+
+    height:2.3rem;
+
+    display: inline-block;
+
+
+
+}
+
+.container1 .box section h1{
+
+    margin:0.19rem 0 0.31rem 0;
+
+    font-size: 0.24rem;
+
+    color: #2D2D2D;
+
+    text-align:center;
+
+}
+
+.container1 .box section p{
+
+    font-size: 0.18rem;
+
+    color: #424242;
+
+    letter-spacing: 0;
+
+    line-height: 0.28rem;
+
+    color: #424242;
+
+    width:2.88rem;
+
+    margin:0 auto;
+
+    text-align: center;
+
+}
+
+.container1 h1{
+
+    text-align: center;
+
+    margin-bottom: 0.41rem;
+
+}
+
+.container1 .listmenu{
+
+    width:0.96rem;
+
+    margin-right: 1rem;
+
+    margin-left: 0.7rem;
+
+    float: left;
+
+}
+
+.container1 .listmenu ul li{
+
+    position: relative;
+
+    height:0.4rem;
+
+    font-size: 0.24rem;
+
+    color: #666666;
+
+    letter-spacing: 0px;
+
+    margin-bottom:0.8rem ;
+
+    text-align: center;
+
+}
+
+.container1 .listmenu ul li img{
+
+    width:0.96rem;
+
+    position: absolute;
+
+    bottom: 0;
+
+    left:0;
+
+}
+
+.container1 .box section:nth-of-type(1),#main .box section:nth-of-type(2){
+
+    margin-right: 0.5rem;
+
+}
+
+.container1 .section:nth-of-type(2),.container1 .section:nth-of-type(3){
+
+    display: none;
+
+}
+
+.container1 .job{
+
+    overflow: hidden;
+
+}
+
+.container1 .job .joblist{
+
+    height:0.4rem;
+
+    float: left;
+
+    width:33.3%;
+
+    text-align: center;
+
+    margin:0 0 0.6rem 0 ;
+
+    font-size: 0.24rem;
+
+    color: #2D2D2D;
+
+}
+
+.container1 .job .joblist span{
+
+    display: inline-block;
+
+    padding-bottom: 0.1rem;
+
+}
+
+.container1 .job .joblist:hover span{
+
+    border-bottom: 0.03rem solid black;
+
+}
+
+#content{
+
+    text-align: center;
+
+    font-size: 0.42rem;
+
+    color: #2D2D2D;
+
+    letter-spacing: 0;
+
+    margin-bottom: 0.4rem;
+
+}
+
+.recruit-tab-nav-indi {
+
+    background: #27BCE9;
+
+}
+
+
+
+.recruit-tab-nav-indi .tab-nav-indi > li.active > a{
+
+    background: #15A8D3;
+
+}
+
+.text-center{
+
+    font-size: 0.12rem;
+
+}
+
+@media only screen and (max-width: 750px){
+
+    .mainimage11{
+
+        height: 5rem;
+
+        position: relative;
+
+        background: url("../images/recruit_mobile.png")  no-repeat;
+
+        background-size: cover;
+
+
+
+    }
+
+    .mainimage11 h1{
+
+        font-size: 0.7rem;
+
+        color: #FFFFFF;
+
+        position: absolute;
+
+        top:0.62rem;
+
+        left:1.2rem;
+
+    }
+
+    .mainimage11 p{
+
+        font-size: 0.4rem;
+
+        color: #FFFFFF;
+
+        line-height: 0.8rem;
+
+        position: absolute;
+
+        width: 80%;
+
+        top: 1.71rem;
+
+        left: 1.2rem;
+
+    }
+
+    .mainimage11 a{
+
+        position: absolute;
+
+        top: 3.53rem;
+
+        left: 1.2rem;
+
+        display: inline-block;
+
+        width:4.48rem;
+
+        height:1.2rem;
+
+        line-height: 1.2rem;
+
+        font-size: 0.4rem;
+
+        color: #FFFFFF;
+
+        background: #27BCE8;
+
+        border-radius: 0.08rem;
+
+        text-align: center;
+
+    }
+
+    .container1 .box section{
+
+        width:100%;
+
+        float: none;
+
+        text-align: center;
+
+        margin-bottom: 1.2rem;
+
+    }
+
+    .container1 .box section img{
+
+        width:4.51rem;
+
+        height:4.51rem;
+
+        display: inline-block;
+
+
+
+    }
+
+    .container1 .box section h1{
+
+        margin:0.4rem 0 0.2rem 0;
+
+        font-size: 0.7rem;
+
+        color: #2D2D2D;
+
+        text-align:center;
+
+    }
+
+    .container1 .box section p{
+
+        font-size: 0.6rem;
+
+        color: #424242;
+
+        letter-spacing: 0;
+
+        line-height: 0.8rem;
+
+        color: #424242;
+
+        width:100%;
+
+        margin:0 auto;
+
+        text-align: center;
+
+    }
+
+    .container1 .box section:nth-of-type(1),#main .box section:nth-of-type(2){
+
+        margin-right: 0;
+
+    }
+
+    #content{
+
+        font-size: 0.7rem;
+
+    }
+
+    .container1 .job .joblist{
+
+        height:auto;
+
+        float: none;
+
+        width:100%;
+
+        text-align: left;
+
+        margin:0 0 0.9rem 0 ;
+
+        font-size: 0.6rem;
+
+        color: #2D2D2D;
+
+    }
+
+    .container1 .job .joblist:hover span{
+
+        border-bottom: none;
+
+    }
+
+}
+
+
+/*================ Recruit CSS end =================*/

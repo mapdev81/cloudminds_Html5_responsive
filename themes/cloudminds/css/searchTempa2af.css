@@ -1,0 +1,61 @@
+#postList .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+#postList .post-title {
+    width: 9.7rem;
+    line-height: 0.4rem;
+    height: 0.4rem;
+}
+#postList .post-title a {
+  color: #424242;
+  font-size: 0.24rem;
+}
+#postList .post-content {
+  font-size: 0.18rem;
+  color: #424242;
+  line-height: 0.24rem;
+  width: 9.7rem;
+}
+.search-finded {
+  margin-top: 0.76rem;
+  text-indent: 0.16rem;
+  font-size: 0.18rem;
+  color: #6B6B6B;
+}
+.search-container {
+  margin-left: 0;
+  margin-right: 0;
+}
+.search-box {
+  width: 9.8rem;
+  height: 0.66rem;
+  border-color: #0192EF!important;
+  text-indent: 0.12rem;
+}
+#searchClear {
+  margin: 0.3rem 0.2rem 0 0;
+  padding: 0;
+  cursor: pointer;
+}
+.post-list {
+  padding: 0;
+  margin: 0;
+  width: 9.7rem;
+}
+.post-list .post-title,
+.post-list .post-content {
+  width: 9.7rem;
+}
+.post-list .post {
+  width: 9.7rem;
+  height: auto;
+}
+.post {
+  padding: 0 0 0.4rem;
+}
+.modal-content {
+  width: 6rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
